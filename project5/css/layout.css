@@ -1,0 +1,279 @@
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&display=swap');
+
+/* font-family: 'Nanum Gothic', sans-serif; */
+
+#wrap{
+	width:100%;
+	position:relative;
+	margin-top:1px;
+}
+#line{
+	width:100%;
+	position:absolute;
+	border-top:2px solid #333333;
+	top:88px;
+}
+#header{
+	width:1350px;
+	height:176px;
+	margin:0 auto;
+	background:#999999;
+}
+#top{
+	width:1350px;
+	height:176px;
+	position:relative;
+	background:#dddddd;
+}
+	#top #logo{
+		width:169px;
+		height:177px;
+		float:left;
+		background:#111111;
+	}
+#top_header{
+	width:1350px;
+	height:88px;
+	background:#aaaaaa;
+}
+	#top_header h1{
+		width:330px;
+		height:39px;
+		float:left;
+		text-indent:-9999999px;
+		margin:30px 0 0 10px;
+		background:#cccccc;
+	}
+	#top_header #search{
+		float:left;
+		margin:30px 0 0 180px;
+	}
+	#top_header #gnb{
+		float:right;
+		background:#cccccc;
+		width:360px;
+		height:60px;
+	}
+	#top_header #gnb li{
+		float:left;
+		padding-top:5px;
+		padding-left:10px;
+	}
+#nav{
+	width:1178px;
+	height:88px;
+	float:right;
+	background:#555555;
+}
+	#nav #top_nav{
+		width:100%;
+		height:100%;
+	}
+	#nav #top_nav li{
+		float:left;
+		position:relative;
+		background:#999999;
+		width:9%;
+		height:100%;
+	}
+#main_image{
+	width:100%;
+	height:554px;
+	background:#666666;
+}
+#content{
+	width:1350px;
+	height:auto;
+	margin:0 auto;
+	background:#999999;
+}
+#top_sub_menu{
+	width:1335px;
+	height:68px;
+	margin:0 auto;
+	position:relative;
+	background:#dddddd;
+}
+	#top_sub_menu .left{
+		position:absolute;
+		top:0;
+		left:0;
+		background:#000;
+		width:57px;
+		height:68px;
+	}
+	#top_sub_menu .right{
+		position:absolute;
+		top:0;
+		right:0;
+		background:#000;
+		width:57px;
+		height:68px;
+	}
+	#top_sub_menu ul{
+		width:1221px;
+		height:67px;
+		margin-left:57px;
+		border-bottom:1px solid #000;
+	}
+	#top_sub_menu ul li{
+		float:left;
+		width:203.5px;
+		height:67px;
+		background:#d9d9d9;
+	}
+
+#main1{
+	width:1350px;
+	height:462px;
+	margin-bottom:83px;
+	background:#aaaaaa;
+}
+	#main1_title{
+		width:1336px;
+		height:120px;
+		margin:0 auto;
+		background:#909090;
+	}
+	#main1_banner{
+		width:1336px;
+		height:342px;
+		overflow:hidden;
+		margin:0 auto;
+		background:#dddddd;
+	}
+	#main1_banner li{
+		float:left;
+		position:relatvie;
+		background:#444444;
+		width:167px;
+		height:171px;
+	}
+#main2{
+	width:1350px;
+	height:300px;
+	margin-bottom:40px;
+	background:#666666;
+}
+	#main2_board{
+		width:1336px;
+		height:300px;
+		background:#dddddd;
+		margin:auto;
+	}
+	#main2_board li{
+		float:left;
+		width:443px;
+		height:276px;
+		background:#444444;
+	}	
+#main3{
+	width:1350px;
+	height:930px;
+	background:#aaaaaa;
+}
+	#main3_banner{
+		width:1335px;
+		height:930px;
+		margin:auto;
+		background:#666666;
+	}
+	#main3_banner li{
+		float:left;
+		margin-bottom:20px;
+		background:#333;
+		width:267px;
+		height:296px;
+	}
+#partner{
+	width:1300px;
+	height:46px;
+	margin:30px auto;
+	background:#dddddd;
+}
+	#partner ul{
+		width:1300px;
+		height:46px;
+		background:#333333;
+	}
+	#partner ul li{
+		float:left;
+		width:20%;
+		height:100%;
+		background:#aaaaaa;
+	}
+	#partner ul li.left, #partner ul li.right{
+		width:10%;
+	}
+#footer{
+	width:100%;
+	height:1000px;
+	background:#444444;
+}
+#foot_information{
+	width:1337px;
+	height:630px;
+	margin:0 auto;
+	position:relative;
+	background:#aaa;
+}
+	.text1{
+		width:1337px;
+		height:40px;
+		background:#ffffff;
+		position:relative;
+		top:253px;
+	}
+	.foot_icon{
+		width:936px;
+		height:162px;
+		background:#777;
+		margin:auto;
+		position:relative;
+		top:300px;
+	}
+	.foot_icon li{
+		float:left;
+		width:16.66%;
+		height:160px;
+		background:#111;
+	}
+	#foot_information h2{
+		height:64px;
+		width:936px;
+		background:#777;
+		margin:auto;
+		position:absolute;
+		top:500px;
+		left:50%;
+		margin-left:-468px;
+	}
+	.text2{
+		width:936px;
+		height:40px;
+		background:#ffffff;
+		position:absolute;
+		top:540px;
+		left:50%;
+		margin-left:-468px;
+	}
+	/* 요소가 position 속성을 가지고 left:50% margin-left:- 자기 크기의 반만큼 => 중앙정렬 */
+#foot_sitemap{
+	width:1336px;
+	height:370px;
+	margin:0 auto;
+	background:#ddd;
+}
+	#foot_sitemap ul{
+		width:1100px;
+		height:370px;
+		margin:auto;
+		background:#eee;
+	}
+	#foot_sitemap ul li{
+		width:96px;
+		height:370px;
+		margin-left:2px;
+		margin-right:2px;
+		background:#444;
+	}

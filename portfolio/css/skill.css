@@ -1,0 +1,60 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,500,600|Sunflower:300&display=swap');/* Base */
+html{font-family: 'Helvetica Nenu', 'Arial', san-serif; height: 100%;}
+body{height: 100%;}
+p{margin: 0;}
+
+/* 인포 그래픽 */
+ .charts1{position: relative; margin: 0 auto; width: 400px; height: 150px; /* top: 50%; */ margin-top: 60px;  overflow: hidden;}
+ .charts2{position: relative; margin: 0 auto; width:600px; height: 180px; /* top: 50%; */ margin-top: 0px;  overflow: hidden;}
+.chart{float: left; position: relative; margin: 15px; width: 110px; height: 110px;}
+.circle-mask-outer, .circle-mask-inner{overflow: hidden; position: absolute; width: 55px; height: 113px;}
+.circle-mask-outer.left{left:0px;}
+.circle-mask-outer.right{right:0px;}
+.circle-mask-outer.left .circle-mask-inner{left: 100%; transform-origin: 0 50%;}
+.circle-mask-outer.right .circle-mask-inner{right: 100%; transform-origin: 100% 50%;}
+ 
+.circle-body{border-radius: 50%; position: absolute; width: 110px; height: 110px; top:1px;}
+	.circle-mask-outer.left .circle-body{right: 0;}
+	.circle-mask-outer.right .circle-body{left: 0;}
+
+.circle-body{background-color: #ffd24c; }
+ .chart-content{position: absolute; left:10.5px; top: 11.6px; width: 90px; height: 90px; background:url(../img/normal.png) no-repeat; border-radius: 50%; text-align: center;}
+ 	
+ .chart-content .text{left: 5px; line-height: 1; position: relative; top:25px;}
+.chart-content .percent-number{font-size: 14px; font-weight: bold; letter-spacing:-1px;}
+.chart-content .ptit{font-size: 13px; font-weight: bold; margin-right:13px; color:#888; margin-bottom:5px;}
+.chart-content .percent-symbol{margin-left:-2px; font-size: 14px;}
+
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+
+
+
+
+
+
+
+

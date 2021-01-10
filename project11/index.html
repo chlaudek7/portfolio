@@ -1,0 +1,402 @@
+<!doctype html>
+<html lang="ko">
+<head>
+   <meta charset="UTF-8">
+    <meta name="viewport" content="user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, width=device-width">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="author" content="">
+    <meta name="description" content="망고보드">
+    <meta name="keywords" content="망고보드 반응형 만들기에 오신것을 환영합니다.">
+   <title>mango</title>
+   <link rel="stylesheet" href="css/reset.css"/>
+   <link rel="stylesheet" href="css/swiper.css"/>
+   <link rel="stylesheet" href="css/jquery.bxslider.css"/>
+   <link rel="stylesheet" href="css/style.css"/>
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+   
+    <!-- 웹 폰트 -->
+    <link href="https://fonts.googleapis.com/css?family=Noto+Sans+KR:100,300,400,500,700,900&amp;subset=korean" rel="stylesheet">
+   <link href="https://fonts.googleapis.com/css?family=Nanum+Gothic:400,700,800&display=swap&subset=korean" rel="stylesheet">
+   
+    <!-- 파비콘 -->
+    <!--
+   <link rel="shortcut icon" href="icons/favicon.ico">
+    <link rel="apple-touch-icon-precomposed" href="icons/favicon_72.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="96x96" href="icons/favicon_96.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="icons/favicon_144.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="192x192" href="icons/favicon_192.png" />
+    -->
+   
+   <!-- 페이스북 메타 태그 -->
+    <meta property="og:title" content="망고보드만들기" />
+    <meta property="og:url" content="" />
+    <meta property="og:description" content="망고보드 리뉴얼 페이지 만들기" />
+   
+    <!-- 트위터 메타 태그 -->
+    <meta name="twitter:title" content="망고보드만들기">
+    <meta name="twitter:url" content="">
+    <meta name="twitter:description" content="망고보드 리뉴얼 페이지 만들기">
+   
+    <script src="js/jquery.min_1.12.4.js"></script>
+	<script src="js/modernizr-custom.js"></script> <!-- 사용자의 브라우저가 현재 가지고 있는 html5, css 기능들을 감지하고 지원여부 판별 라이브리 -->
+	<script src="js/iframe_api.js"></script> 
+	<!-- 유투브 api 연동 스크립트 Application Programming Interface -->
+    <script src="js/movie.js"></script>
+    <script src="js/swiper.min.js"></script>
+    <script src="js/jquery.bxslider.js"></script>
+    <script src="js/script.js"></script>
+
+</head>
+<body>
+	<div id="wrap">
+		<header id="header">
+			<div class="container">
+				<div class="row">
+					<h1><a href="index.html"><img src="images/logo.png" alt="logo"/></a></h1>
+					<nav id="nav">
+						<ul>
+							<li class="on"><a href="sub/sub1.html">템플릿</a></li>
+							<li><a href="sub/sub1.html">사용가이드</a></li>
+							<li><a href="sub/sub1.html">사용자갤러리</a></li>
+							<li><a href="sub/sub1.html">요금제/저작권</a></li>
+						</ul>
+					</nav>
+					<div class="gnb">
+						<ul>
+							<li><a href="login.html">로그인</a></li>
+							<li><a href="member.html">회원가입</a></li>
+							<li><a href="#">고객센터</a></li>
+							<li><a href="#">실험실</a></li>
+						</ul>
+						<ul class="sns">
+							<li><a href="#"><img src="images/blog_ico.png" alt="blog_ico"/></a></li>
+							<li><a href="#"><img src="images/facebook_ico.png" alt="facebook_ico"/></a></li>
+							<li><a href="#"><img src="images/youtube_ico.png" alt="youtube_ico"/></a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="mobile">
+					<ul>
+						<li>
+							<a href="#" class="appBtn">
+								<i class="bar bar1"></i>
+								<i class="bar bar2"></i>
+								<i class="bar bar3"></i>
+							</a>
+							<ul class="mobile_nav">
+								<li class="on"><a href="sub/sub1.html">템플릿</a></li>
+								<li><a href="sub/sub1.html">사용가이드</a></li>
+								<li><a href="sub/sub1.html">사용자갤러리</a></li>
+								<li><a href="sub/sub1.html">요금제/저작권</a></li>
+							</ul>
+						</li>
+						<li><a href="index.html"><img src="images/logo.png" alt="login"/></a></li>
+						<li><a href="" class="mobile-find-btn"><i class="fa fa-search"></i></a></li>
+					</ul>
+				</div>
+			</div>
+		</header>
+		<main id="main">
+			<div class="main_top">
+				<div class="container">
+					<div class="main_top_left">
+						<h2>쉬운 디자인 플랫폼, 망고보드 <span class="textIcon"><img src="images/try_btn.png" alt="btn"/></span></h2>
+						<p class="textBold">누구나 <span class="colorY">디자이너</span>가 된다.</p>
+					</div>
+					<div class="main_top_right">
+						<h3>News</h3>
+						<div class="news_wrap">
+							<div class="news_wrap1">
+								<p><span class="text">카드뉴스, sns콘텐츠 이렇게 만들어 보세요</span><span class="data">2018-11-29</span></p>
+								<p><span class="text">카드뉴스, sns콘텐츠 이렇게 만들어 보세요</span><span class="data">2018-11-29</span></p>
+							</div>
+							<div class="news_wrap1">
+								<p><span class="text">카드뉴스, sns콘텐츠 이렇게 만들어 보세요</span><span class="data">2018-11-29</span></p>
+								<p><span class="text">카드뉴스, sns콘텐츠 이렇게 만들어 보세요</span><span class="data">2018-11-29</span></p>
+							</div>
+							<div class="news_wrap1">
+								<p><span class="text">카드뉴스, sns콘텐츠 이렇게 만들어 보세요</span><span class="data">2018-11-29</span></p>
+								<p><span class="text">카드뉴스, sns콘텐츠 이렇게 만들어 보세요</span><span class="data">2018-11-29</span></p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="main_bottom play" id="showTrailer" data-youtube="jsIDc3q7bG0">
+				<div class="container">
+					<div class="playBtn"><img src="images/mango_playicon.png" alt="playBtn"/></div>
+				</div>
+			</div>
+			<aside id="blackout" class="overlay">
+				<div id="trailerModal" class="modal">
+					<div id="trailer"></div>
+				</div>
+				<button id="hideTrailer" class="modal_colse">닫기</button>
+			</aside>
+		</main>
+		<section id="templat">
+			<div class="container">
+				<h2>막막한 디자인? 템플릿이 도와 드립니다.</h2>
+				<p>온라인, 모바일, 인쇄용까지 다양한 템플릿을 활용하면 <br/>누구나 고퀄리티로 척척. 디자인이 즐거워집니다.</p>
+				<div class="templat_line">
+					<ul class="cf">
+						<li>
+							<a href="#">인포그래픽</a>
+							<div class="templat_text">학습자료, 이력서, 타임라인, 대시보드, 캠페인 등</div>
+						</li>
+						<li>
+							<a href="#">네임카드</a>
+							<div class="templat_text">학습자료, 이력서, 타임라인, 대시보드, 캠페인 등</div>
+						</li>
+						<li>
+							<a href="#">카드뉴스</a>
+							<div class="templat_text">학습자료, 이력서, 타임라인, 대시보드, 캠페인 등</div>
+						</li>
+						<li>
+							<a href="#">현수막</a>
+							<div class="templat_text">학습자료, 이력서, 타임라인, 대시보드, 캠페인 등</div>
+						</li>
+						<li>
+							<a href="#">상세페이지</a>
+							<div class="templat_text">학습자료, 이력서, 타임라인, 대시보드, 캠페인 등</div>
+						</li>
+						<li>
+							<a href="#">세로배너</a>
+							<div class="templat_text">학습자료, 이력서, 타임라인, 대시보드, 캠페인 등</div>
+						</li>
+						<li>
+							<a href="#">SNS</a>
+							<div class="templat_text">학습자료, 이력서, 타임라인, 대시보드, 캠페인 등</div>
+						</li>
+						<li>
+							<a href="#">이벤트·홍보페이지</a>
+							<div class="templat_text">학습자료, 이력서, 타임라인, 대시보드, 캠페인 등</div>
+						</li>
+						<li>
+							<a href="#">프레젠테이션</a>
+							<div class="templat_text">학습자료, 이력서, 타임라인, 대시보드, 캠페인 등</div>
+						</li>
+						<li>
+							<a href="#">유튜브채널아트</a>
+							<div class="templat_text">학습자료, 이력서, 타임라인, 대시보드, 캠페인 등</div>
+						</li>
+						<li>
+							<a href="#">배너</a>
+							<div class="templat_text">학습자료, 이력서, 타임라인, 대시보드, 캠페인 등</div>
+						</li>
+						<li>
+							<a href="#">웹툰스타일</a>
+							<div class="templat_text">학습자료, 이력서, 타임라인, 대시보드, 캠페인 등</div>
+						</li>
+						<li>
+							<a href="#">포스터·전단</a>
+							<div class="templat_text templat_text1">학습자료, 이력서, 타임라인, 대시보드, 캠페인 등</div>
+						</li>
+						<li>
+							<a href="#">로고</a><span class="ellipse">N</span>
+							<div class="templat_text templat_text2">학습자료, 이력서, 타임라인, 대시보드, 캠페인 등</div>
+						</li>
+						<li>
+							<a href="#">유튜브썸네일</a>
+							<div class="templat_text templat_text3">학습자료, 이력서, 타임라인, 대시보드, 캠페인 등</div>
+						</li>
+					</ul>
+					<ul class="btn">
+						<li class="on so">버튼</li>
+						<li class="so">버튼</li>
+						<li class="so">버튼</li>
+						<li class="so">버튼</li>
+						<li class="so">버튼</li>
+						<li class="so">버튼</li>
+						<li class="so">버튼</li>
+						<li class="so">버튼</li>
+						<li class="so">버튼</li>
+						<li class="so">버튼</li>
+						<li class="so">버튼</li>
+						<li class="so">버튼</li>
+						<li class="so">버튼</li>
+						<li class="so">버튼</li>
+						<li class="so">버튼</li>
+					</ul>
+				</div>
+			</div>
+		</section>
+		<section id="banner">
+			<h2 class="so">배너영역</h2>
+			<div class="container1">
+				<div class="bannerLeftBtn"><img src="images/left.png" alt="left"/></div>
+				<div class="bannerRightBtn"><img src="images/right.png" alt="right"/></div>
+				<div class="bannerArea">
+					<ul class="area">
+						<li><a href="#"><img src="images/templt_info_img01.jpg" alt="templt01"/></a></li>
+						<li><a href="#"><img src="images/templt_info_img02.jpg" alt="templt02"/></a></li>
+						<li><a href="#"><img src="images/templt_info_img03.jpg" alt="templt03"/></a></li>
+						<li><a href="#"><img src="images/templt_info_img04.jpg" alt="templt04"/></a></li>
+						<li><a href="#"><img src="images/templt_info_img05.jpg" alt="templt05"/></a></li>
+						<li><a href="#"><img src="images/templt_info_img06.jpg" alt="templt06"/></a></li>
+						<li><a href="#"><img src="images/templt_info_img07.jpg" alt="templt07"/></a></li>
+						<li><a href="#"><img src="images/templt_info_img08.jpg" alt="templt08"/></a></li>
+						<li><a href="#"><img src="images/templt_info_img09.jpg" alt="templt09"/></a></li>
+						<li><a href="#"><img src="images/templt_info_img10.jpg" alt="templt10"/></a></li>
+					</ul>
+				</div>
+			</div>
+			<div class="container2 swiper-container">
+				<div class="swiper-wrapper">
+				  <div class="swiper-slide"><a href="#"><img src="images/templt_info_img01.jpg" alt="templt01"/></a></div>
+				  <div class="swiper-slide"><a href="#"><img src="images/templt_info_img02.jpg" alt="templt02"/></a></div>
+				  <div class="swiper-slide"><a href="#"><img src="images/templt_info_img03.jpg" alt="templt03"/></a></div>
+				  <div class="swiper-slide"><a href="#"><img src="images/templt_info_img04.jpg" alt="templt04"/></a></div>
+				  <div class="swiper-slide"><a href="#"><img src="images/templt_info_img05.jpg" alt="templt05"/></a></div>
+				  <div class="swiper-slide"><a href="#"><img src="images/templt_info_img06.jpg" alt="templt06"/></a></div>
+				  <div class="swiper-slide"><a href="#"><img src="images/templt_info_img07.jpg" alt="templt07"/></a></div>
+				  <div class="swiper-slide"><a href="#"><img src="images/templt_info_img08.jpg" alt="templt08"/></a></div>
+				  <div class="swiper-slide"><a href="#"><img src="images/templt_info_img09.jpg" alt="templt09"/></a></div>
+				  <div class="swiper-slide"><a href="#"><img src="images/templt_info_img10.jpg" alt="templt10"/></a></div>
+				</div>
+			</div>
+		</section>
+		<section id="title_box">
+			<h2 class="section_title">좋은 디자인 맛을 내는 풍부한 재료들까지</h2>
+			<p class="section_p">망고보드의 디자인 툴로 망고보드의 다양한 재료들을 조리하면 <br/>어떤 맛의 디자인도 완성할 수 있습니다.</p>
+		</section>
+		<section id="bxslider">
+			<div class="container">
+				<div class="bxslider">
+					<div><img src="images/main_img01.png"></div>
+					<div><img src="images/main_img02.png"></div>
+					<div><img src="images/main_img03.png"></div>
+				</div>
+			</div>
+		</section>
+		<section id="dynamic">
+			<div class="container">
+				<h2><img src="images/dynamic.png" alt="mango dynamic"/></h2>
+				<h3>시선을 사로잡는 다이나믹 콘텐츠도 쉽게 만드세요.</h3>
+				<h4>클릭 몇 번만 하면, 반복해서 움직이는 콘텐츠로 변합니다.</h4>
+				<div class="dynamic_banner">
+					<ul>
+						<li>
+							<div class="blog">
+								<img src="images/d_blog.gif" alt="blog1"/>
+							</div>
+						</li>
+						<li>
+							<div class="facebook">
+								<img src="images/d_facebook.gif" alt="facebook1"/>
+							</div>
+						</li>
+						<li>
+							<div class="insta">
+								<img src="images/d_insta.gif" alt="insta1"/>
+							</div>
+						</li>
+						<li class="lastLi">
+							<div class="shopping">
+								<img src="images/d_shopping.gif" alt="shopping1"/>
+							</div>
+						</li>
+					</ul>
+				</div>
+				<div class="link"><a href="#">자세히 보기</a></div>
+			</div>
+		</section>
+		<section id="movie">
+			<div class="container">
+				<div class="moviePhone">
+					<video controls autoplay muted loop>
+						<source src="movie/preset2.mp4" type="video/mp4"/>
+					</video>
+				</div>
+				<div class="movieText">
+					<h2>동영상과 이미지를 <br/> 엮어서 스토리텔링 동영상을 <br/><span>만드세요.</span></h2>
+					<p>망고보드의 동영상 소스 혹은 이미지를 활용해서 <br/> 슬라이드들을 만들면, 이를 엮은 하나의 동영상이 쉽게 <br/> 만들어집니다.</p>
+					<p>카드뉴스도 클릭 한번만 하면 자동으로 동영상이 <br/>  만들어집니다.</p>
+				</div>
+			</div>
+		</section>
+		<section id="muser">
+			<div class="container">
+				<h2>SINCE OCT.2016 <span>사용자가 말하는 망고보드</span></h2>
+				<ul class="userText">
+					<li>"망고보드로 상세페이지를 예쁘게 만들어 올리니 다들 제가 디자인 전문가인 줄 알아요." <span>쇼핑몰 마르공방 김상희 대표</span></li>
+					<li>"4시간 걸리던 작업을 1시간만에 고춸리티로 뽑을 수 있게 되었어요! 감사요 ^^" <span>병원마케터(ID:han***)</span></li>
+					<li>"팀 과제물을 망고보드로 만들었더니 교수님으로부터 좋은 점수를 받았어요" <span>대학원생 류재무님(ID:jmj***)</span></li>
+					<li>"3분 카레를 데워서 요리를 만들 듯이 제가 만들 수 없던 멋있는 결과물을 뚝딱 만듭니다." <span>1인기업 오씨아줌마 오종현 대표</span></li>
+				</ul>
+			</div>
+		</section>
+		<section id="reference">
+			<div class="container">
+				<img src="images/reference1912.png" alt="reference"/>
+			</div>
+		</section>
+		<section id="etc_box">
+			<div class="container">
+				<ul>
+					<li>사용자 메뉴얼</li>
+					<li>망고보드 소개서</li>
+					<li>저작권 규정</li>
+					<li>자주하는 질문</li>
+					<li>새로운소식</li>
+				</ul>
+			</div>
+		</section>
+		<footer id="footer">
+			<div class="container">
+				<div class="f_inner">
+					<ul>
+						<li class="foot1">
+							<div class="tit">COMPANY</div>
+							<div class="txt">
+								(주)리아모어소프트 <br/>
+								대표 &nbsp;&nbsp;&nbsp; 심재홍 &nbsp;&nbsp;&nbsp;사업자등록번호&nbsp;&nbsp;105-87-15982 <br/>
+								통신판매번호&nbsp;&nbsp;&nbsp;2016-서울영등포-0438 <br/>
+								<a href="#">사업자번호조회</a><br/>
+								서울시 영등포구 영신로 220 KNK디지털타워 611호
+							</div>
+						</li>
+						<li class="foot2">
+							<div class="tit">INFORMATION</div>
+							<div class="txt">
+								<a href="#">이용약관</a> / <a href="#">개인정보처리방침</a><br/>
+								<a href="#">저작권(라이선스)규정</a>
+							</div>
+						</li>
+						<li class="foot3">
+							<div class="tit">CLINENT CENTER</div>
+							<div class="txt">
+								이메일문의 <span>support@mangoboard.net</span><br/>
+								전화문의<span>02-2655-9766</span><br/><span><a href="#">[자주묻는질문]FAQ 답변에 문의 별</a></span><br/>
+								<span>전화번호가 안내되어 있습니다.</span>
+							</div>
+						</li>
+					</ul>
+					<div class="util">
+						<ul>
+							<li><a href="#"><img src="images/foot_f_ico.png" alt="foot_f_ico" title="망고보드 페이스북 바로가기"/></a></li>
+							<li><a href="#"><img src="images/foot_b_ico.png" alt="foot_b_ico" title="망고보드 블로그 바로가기"/></a></li>
+							<li><a href="#"><img src="images/foot_y_ico.png" alt="foot_y_ico" title="망고보드 유튜브 바로가기"/></a></li>
+							<li><a href="#"><img src="images/foot_p_ico.png" alt="foot_p_ico" title="망고보드 핀터레스트 바로가기"/></a></li>
+							<li><a href="#"><img src="images/foot_n_ico.png" alt="foot_n_ico" title="망고보드 네이버포스트 바로가기"/></a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="copy">&copy; MANGOGOARD INFOGRAPHICS. ALL RIGHTS RESERVED</div>
+			</div>
+		</footer>
+	</div>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+

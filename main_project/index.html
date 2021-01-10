@@ -1,0 +1,445 @@
+<!doctype html>
+<html lang="ko">
+<head>
+	<meta charset="UTF-8">
+	<title>제주하루</title>
+	<link rel="stylesheet" href="css/basic.css"/>
+	<link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+	<link rel="stylesheet" href="fontawesome-free-5.15.1-web/css/all.css"/> 
+	<link rel="stylesheet" href="css/style.css"/>
+	<script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+	<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+	<script src="js/DB_springMove_fn.js"></script>
+	<script src="js/jquery.lightbox-0.5.js"></script>
+	<script src="js/script.js"></script>	
+	<script src="js/script2.js"></script>	
+</head>
+<body>
+	<div id="wrap">
+		<div id="banner">
+			<div class="bannerImg">
+				<img src="img/main2.jpg"  alt="banner"/>
+				<div class="Iwrap">
+					<img src="img/comI.png" alt="comI" class="com mainL"/>
+					<img src="img/diaryI.png" alt="daiary" class="daiary mainL"/>
+					<img src="img/mouseI.png" alt="mouse" class="mouse mainL"/>
+					<img src="img/yellowI.png" alt="yellow" class="yellow mainR"/>
+					<img src="img/orengeI.png" alt="orenge" class="orenge mainR"/>
+					<img src="img/airplainI.png" alt="airplain" class="airplain mainR"/>
+					<img src="img/musicI.png" alt="music" class="music mainR"/>
+				</div>
+				<div class="tit fl"><img src="img/slogen.png" width="700" alt="slogen "/></div>
+				<div class="goNow">
+					<a href="#">바로예약하기</a>
+				</div>
+			</div><!-- //bannerImg -->
+			<div id="header" class="stickyHeader">
+				<div class="headerCon stickyInner">
+					<ul class="lnb stickyLnb fl">
+						<li>
+							<a href="#">제주-도</a>
+							<ul class="depth2">
+								<li><a href="#">오시는 길</a></li>
+								<li><a href="#">'오직제주'는</a></li>
+								<li><a href="#">제주관광지 추천</a></li>
+							</ul>
+						</li>
+						<li>
+							<a href="#">방둘러보기</a>
+							<ul class="depth2">
+								<li><a href="#">북동쪽</a></li>
+								<li><a href="#">북서쪽</a></li>
+								<li><a href="#">남동쪽</a></li>
+								<li><a href="#">남서쪽</a></li>
+							</ul>							
+						</li>
+						<li>
+							<a href="#">이벤트</a>
+							<ul class="depth2">
+								<li><a href="#">특별 패키지</a></li>
+								<li><a href="#">이벤트</a></li>
+								<li><a href="#">금주의 특가</a></li>
+							</ul>							
+						</li>
+						<li>
+							<a href="#">공지사항</a>
+							<ul class="depth2">
+								<li><a href="#">예약현황</a></li>
+								<li><a href="#">공지사항</a></li>
+							</ul>							
+						</li>
+						<li>
+							<a href="#">예약하기</a>
+							<ul class="depth2">
+								<li><a href="#">예약하기</a></li>
+								<li><a href="#">예약확인</a></li>
+								<li><a href="#">취소/문의</a></li>
+							</ul>							
+						</li>
+					</ul><!-- //lnb -->
+					<ul class="gnb fl">	
+						<li><a href="#">로그인</a></li>
+						<li><a href="#">회원가입</a></li>
+					</ul><!-- //gnb -->
+				</div><!-- //headerCon -->
+			</div><!-- //header -->
+		</div><!-- //banner -->
+		<div id="contents">
+			<div id="con1">
+				<div class="bannerImgSlideWrap">
+					<img src="img/banner.png" style="left:0;" alt="banner"/>	
+					<img src="img/banner2.png" alt="banner"/>
+					<img src="img/banner3.png" alt="banner"/>
+				</div>
+				<div class="con1Con">
+					<div class="con1Tit">어디로 갈까요?</div>
+					<div class="MainReservWrap">
+						<a href="#" class="MainReservBox fl">
+							<img src="img/mountain.png" alt="mountains" width="120" class="reservePic"/>
+							<span class="reserveTxt">조용한 자연속 나만의 공간</span>
+						</a>
+						<a href="#" class="MainReservBox fl">
+							<img src="img/island.png" alt="mountains" width="120" class="reservePic"/>
+							<span class="reserveTxt">잔잔한 바다소리에 잠드는 공간</span>
+						</a>
+						<a href="#" class="MainReservBox fl">
+							<img src="img/hotel.png" alt="mountains" width="120" class="reservePic"/>
+							<span class="reserveTxt">육지와는 또 다른 도심생활</span>
+						</a>
+					</div>
+				</div><!-- //con1Con -->
+			</div><!-- //con1 -->
+			<div id="con2">
+				<div class="con2Con">
+					<div class="con2Tit">숙소 둘러보기</div>
+					<div class="bestWrap">
+						<div class="bestBox">
+							<div class="best fl">
+								<a href="#">
+									<img src="img/best1.jpg" alt="best"/>
+									<div class="bestTxt">
+										<p class="subTit">펜션·서귀포시 토평로</p>
+										<span class="mainTit">끄라비펜션</span>
+										<div class="priceWrap">
+											<p class="days"><span class="dayPrice">₩64,000</span><span class="day">/1박</span></p>
+											<p class="month"><span class="monthPrice">₩1,800,000</span><span class="oneMonth">/1달</span></p>
+										</div>
+									</div>
+								</a>
+							</div><!-- //best -->
+						</div><!-- //bestBox -->
+						<div class="bestBox">
+							<div class="best fl">
+								<a href="#">
+									<img src="img/best2.jpg" alt="best"/>
+									<div class="bestTxt">
+										<p class="subTit">펜션·서귀포시 안덕면</p>
+										<span class="mainTit">산방산 펜션</span>
+										<div class="priceWrap">
+											<p class="days"><span class="dayPrice">₩64,000</span><span class="day">/1박</span></p>
+											<p class="month"><span class="monthPrice">₩1,800,000</span><span class="oneMonth">/1달</span></p>
+										</div>
+									</div>
+								</a>
+							</div><!-- //best -->
+						</div><!-- //bestBox -->
+						<div class="bestBox">
+							<div class="best fl">
+								<a href="#">
+									<img src="img/best3.jpg" alt="best"/>
+									<div class="bestTxt">
+										<p class="subTit">펜션·서귀포시 남원읍</p>
+										<span class="mainTit">르페도라</span>
+										<div class="priceWrap">
+											<p class="days"><span class="dayPrice">₩64,000</span><span class="day">/1박</span></p>
+											<p class="month"><span class="monthPrice">₩1,800,000</span><span class="oneMonth">/1달</span></p>
+										</div>
+									</div>
+								</a>
+							</div><!-- //best -->
+						</div>
+						<div class="bestBox">
+							<div class="best fl">
+								<a href="#">
+									<img src="img/best4.jpg" alt="best"/>
+									<div class="bestTxt">
+										<p class="subTit">독채펜션·제주시 애월읍</p>
+										<span class="mainTit">나미송 머무는 곳</span>
+										<div class="priceWrap">
+											<p class="days"><span class="dayPrice">₩64,000</span><span class="day">/1박</span></p>
+											<p class="month"><span class="monthPrice">₩1,800,000</span><span class="oneMonth">/1달</span></p>
+										</div>
+									</div>
+								</a>
+							</div><!-- //best -->
+						</div>
+						<div class="bestBox">
+							<div class="best fl">
+								<a href="#">
+									<img src="img/best5.jpg" alt="best"/>
+									<div class="bestTxt">
+										<p class="subTit">독채펜션·서귀포시 성산읍</p>
+										<span class="mainTit">그린나레</span>
+										<div class="priceWrap">
+											<p class="days"><span class="dayPrice">₩64,000</span><span class="day">/1박</span></p>
+											<p class="month"><span class="monthPrice">₩1,800,000</span><span class="oneMonth">/1달</span></p>
+										</div>
+									</div>
+								</a>
+							</div><!-- //best -->
+						</div>
+						<div class="bestBox">
+							<div class="best fl">
+								<a href="#">
+									<img src="img/best6.jpg" alt="best"/>
+									<div class="bestTxt">
+										<p class="subTit">펜션·제주시 애월읍</p>
+										<span class="mainTit">제주가온29</span>
+										<div class="priceWrap">
+											<p class="days"><span class="dayPrice">₩64,000</span><span class="day">/1박</span></p>
+											<p class="month"><span class="monthPrice">₩1,800,000</span><span class="oneMonth">/1달</span></p>
+										</div>
+									</div>
+								</a>
+							</div><!-- //best -->
+						</div>
+						<div class="bestBox">
+							<div class="best fl">
+								<a href="#">
+									<img src="img/best7.jpg" alt="best"/>
+									<div class="bestTxt">
+										<p class="subTit">펜션·제주시 구좌읍</p>
+										<span class="mainTit">이야기별방</span>
+										<div class="priceWrap">
+											<p class="days"><span class="dayPrice">₩64,000</span><span class="day">/1박</span></p>
+											<p class="month"><span class="monthPrice">₩1,800,000</span><span class="oneMonth">/1달</span></p>
+										</div>
+									</div>
+								</a>
+							</div><!-- //best -->
+						</div>
+						<div class="bestBox">
+							<div class="best fl">
+								<a href="#">
+									<img src="img/best8.jpg" alt="best"/>
+									<div class="bestTxt">
+										<p class="subTit">펜션·서귀포시 안덕면</p>
+										<span class="mainTit">라이온힐펜션</span>
+										<div class="priceWrap">
+											<p class="days"><span class="dayPrice">₩64,000</span><span class="day">/1박</span></p>
+											<p class="month"><span class="monthPrice">₩1,800,000</span><span class="oneMonth">/1달</span></p>
+										</div>
+									</div>
+								</a>
+							</div><!-- //best -->
+						</div><!-- //bestBox -->
+					</div><!-- //bestWrap -->
+					<div class="con2More"><a href="#">더 많은 숙소보기 +</a></div>
+				</div><!-- //con2Con -->
+			</div><!-- //con2 -->
+			<div id="con3">
+				<div class="con3Con">
+					<div class="con3Tit">오직 제주에서만 만날 수 있는 특별한 일상!</div>
+
+					<div class="picWrap">
+						<div class="pic pic1 fl">
+							<a href="#"><img src="img/pic1.png" alt="pic1"/></a>
+							<a href="#" class="picTxt"><img src="img/picT1.png" alt="picT1"/></a>
+							<a href="#" class="picMore">숙소보기 +</a>
+						</div><!-- //pic -->
+						<div class="pic pic2 fl">
+							<a href="#"><img src="img/pic2.png" alt="pic2"/></a>
+							<a href="#" class="picTxt"><img src="img/picT2.png" alt="picT2"/></a>
+							<a href="#" class="picMore">숙소보기 +</a>
+						</div><!-- //pic -->
+						<div class="pic pic3 fl">
+							<a href="#"><img src="img/pic3.png" alt="pic3"/></a>
+							<a href="#" class="picTxt"><img src="img/picT3.png" alt="picT3"/></a>
+							<a href="#" class="picMore">숙소보기 +</a>
+						</div><!-- //pic -->
+						<div class="pic pic4 fl">
+							<a href="#"><img src="img/pic4.png" alt="pic4"/></a>
+							<a href="#" class="picTxt"><img src="img/picT4.png" alt="picT4"/></a>
+							<a href="#" class="picMore">숙소보기 +</a>
+						</div><!-- //pic -->
+					</div><!-- //picWrap -->
+					<div class="backPic">
+						<img src="img/namu.png" width="500" class="backRight" alt="namu"/>
+						<img src="img/namu2.png" width="500" class="backLeft" alt="namu"/>
+					</div>
+				</div><!-- //con3Con -->
+			</div><!-- //con3 -->
+			<div id="con4">
+				<div class="con4Con">
+					<div class="noticeWrap fl">
+						<div class="noticeTit">자주 묻는 질문</div>
+						<ul class="notice">
+							<li class="group">
+								<div class="question">Q. 환불이나 취소를 할 경우 예약된 숙소로 바로 연락하나요?</div>
+								<ul class="answer">
+									<li>14일전으로 취소/환불 경우 사이트내에서 취소요청을 주시면됩니다. 자세한 내용은 고객센터를 이용해주시면 감사하겠습니다.</li>
+								</ul><!-- //answer -->
+							</li><!-- //group -->
+							<li class="group">
+								<div class="question">Q. 픽업 서비스는 모든 숙소가 다 가능한 것인가요?</div>
+								<ul class="answer">
+									<li>숙소 상세페이지에 기재가 된 숙소만 가능합니다. 기타 사정으로 인해 변경될 수 있습니다.</li>
+								</ul><!-- //answer -->
+							</li><!-- //group -->
+							<li class="group">
+								<div class="question">Q. 스쿠터대여 숙소는 운전면허 인증을 해야하나요?</div>
+								<ul class="answer">
+									<li>이용 시 숙소측에 보여주시면 대여를 해드리며, 만약 인증이 불가한 상황이면 대여가 불가능한 점 알려드립니다.</li>
+								</ul><!-- //answer -->
+							</li><!-- //group -->
+							<li class="group">
+								<div class="question">Q. 객실안에서 음식을 조리해 먹을 수 있을까요?</div>
+								<ul class="answer">
+									<li>네 기본 양념재료와 조리도구가 구비되어 있습니다.</li>
+								</ul><!-- //answer -->
+							</li><!-- //group -->
+							<li class="group">
+								<div class="question">Q. 반려동물과 함께 갈 수 있나요?</div>
+								<ul class="answer">
+									<li>객실 중 'width pet' 이라는 명시 되어있는 객실은 가능합니다.</li>
+								</ul><!-- //answer -->
+							</li><!-- //group -->
+							<li class="group">
+								<div class="question">Q. 추가요금은 사이트에서 결재하나요?</div>
+								<ul class="answer">
+									<li>숙소 이용 중 발생한 추가 요금은 숙소 측에서 결제하시면 됩니다.</li>
+								</ul><!-- //answer -->
+							</li><!-- //group -->
+							<li class="group">
+								<div class="question">Q. 호텔은 없는 건가요?</div>
+								<ul class="answer">
+									<li>저희 사이트는 제주도에서 장기 숙박이 가능하며, 최대한 가정집과 같은 숙소를 제공하는 것이 목표입니다. 추후 더 많은 숙소를 찾아 제공드리겠습니다.</li>
+								</ul><!-- //answer -->
+							</li><!-- //group -->
+						</ul><!-- //notice -->
+					</div><!-- //noticeWrap -->
+					<div class="reviewWrap swiper-container fr">
+						<div class="reviewTit">소중한 후기</div>
+						<div class="reviewSliideWrap swiper-wrapper">
+							<div class="reveiwSlide swiper-slide">
+								<div class="reviewImg"><img src="img/reiview1.png" alt="review1"/></div>
+								<div class="reviewTxt fl">
+									<p class="name">#제주가온29 / 4인가족</p>
+									<p class="reiviewMore">"좋은 추억 만들고 갑니다! <br/> 오랜만에 가족들과 여행을 오게됬는데 <br/> 너무 즐거웠습니다! <br/> 다음 번에도 또 방문할 예정이에요! <br/> 감사합니다.</p>
+									<div class="id fl">gahe***</div>
+									<div class="date fl">2024.06.25</div>
+								</div><!-- //reviewTxt -->
+							</div><!-- //reveiwSlide -->
+							<div class="reveiwSlide swiper-slide">
+								<div class="reviewImg"><img src="img/reiview2.png" alt="review1"/></div>
+								<div class="reviewTxt fl">
+									<p class="name">#제주가온29 / 4인가족</p>
+									<p class="reiviewMore">"정말 만족스러웠어요! <br/> 객실도 깨끗하고 너무 좋았습니다. <br/>사장님도 친절하시고 푹쉬다 가네요 <br/> 제주도 힐링 숙소로 강추입니다!</p>
+									<div class="id fl">heyhe***</div>
+									<div class="date fl">2024.08.03</div>
+								</div><!-- //reviewTxt -->
+							</div><!-- //reveiwSlide -->
+						</div><!-- //reviewSliideWrap -->
+						<div class="swiper-pagination"></div>
+					</div><!-- //reviewWrap -->
+				</div><!-- //con4Con -->
+			</div><!-- //con4 -->
+			<div id="con5">
+				<div class="con5Con">
+					<div class="con5Tit">제주도 이곳 저곳</div>
+					<div class="photoWrap cf">
+						<div class="photoBox fl">
+							<div class="photo">
+								<img src="img/photo1.png" alt="photo2"/>
+							</div>
+							<div class="Dhover">
+								<a href="#">우도</a>
+							</div>
+						</div><!-- //photoBox -->
+						<div class="photoBox fl">
+							<div class="photo">
+								<img src="img/photo2.jpg" alt="photo2"/>
+							</div>
+							<div class="Dhover">
+								<a href="#">오셜록 티 뮤지엄 제주</a>
+							</div>
+						</div><!-- //photoBox -->
+						<div class="photoBox fl">
+							<div class="photo">
+								<img src="img/photo3.jpg" alt="photo2"/>
+							</div>
+							<div class="Dhover">
+								<a href="#">산굼부리</a>
+							</div>
+						</div><!-- //photoBox -->
+						<div class="photoBox fl noMargin">
+							<div class="photo">
+								<img src="img/photo4.png" alt="photo2"/>
+							</div>
+							<div class="Dhover">
+								<a href="#">애월해안도로</a>
+							</div>
+						</div><!-- //photoBox -->
+						<div class="photoBox fl">
+							<div class="photo">
+								<img src="img/photo5.png" alt="photo2"/>
+							</div>
+							<div class="Dhover twoLine">
+								<a href="#">제주 아쿠아 플래닛</a>
+							</div>
+						</div><!-- //photoBox -->
+						<div class="photoBox fl">
+							<div class="photo">
+								<img src="img/photo6.png" alt="photo2"/>
+							</div>
+							<div class="Dhover twoLine">
+								<a href="#">협재해수욕장</a>
+							</div>
+						</div><!-- //photoBox -->
+						<div class="photoBox fl">
+							<div class="photo">
+								<img src="img/photo7.png" alt="photo2"/>
+							</div> 
+							<div class="Dhover twoLine">
+								<a href="#">에코랜드</a>
+							</div>
+						</div><!-- //photoBox -->
+						<div class="photoBox fl noMargin">
+							<div class="photo ">
+								<img src="img/photo8.png" alt="photo2"/>
+							</div>
+							<div class="Dhover twoLine">
+								<a href="#">해녀박물관</a>
+							</div>
+						</div><!-- //photoBox -->
+					</div><!-- //photoWrap -->
+				</div><!-- //con5Con -->
+			</div><!-- //con5 -->
+		</div><!-- //contents -->
+		<div id="footer">
+			<div class="footCon">
+				<div class="footMenu">
+					<a href="#" class="about fl">about us</a>
+					<a href="#" class="contact fl">contact</a>
+					<a href="#" class="fnorice fl">notice</a>
+					<a href="#" class="reserve fl">reserve</a>
+				</div>
+				<div class="footInfo">
+					<p>(주)제주하루 | 대표 김아무개</p>
+					<p>제주특별자치도 제주시 애월읍 | 사업자 등록번호 0000-00-0000</p>
+					<p>전화번호 000-0000-0000</p>
+				</div>
+				<div class="footSns">
+					<a href="#"><i class="fab fl fa-instagram"></i></a>
+					<a href="#"><i class="fab fl fa-facebook-f"></i></a>
+					<a href="#"><i class="fab fl fa-youtube"></i></a>
+				</div>
+				<div class="copy">Copyright 2020 	&copy; jejuharu All right reserve</div>
+				<div class="w3c">
+					<img src="img/css-blue.png" alt="css"/>
+				</div>
+			</div><!-- /footCon/ -->
+		</div><!-- /footer/ -->
+	</div><!-- //wrap -->
+</body>
+</html>

@@ -1,0 +1,66 @@
+@charset 'utf-8';
+body,div,dl,dt,dd,ul,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,textarea,p,blockquote,th,td,input,select,button{
+	margin:0;
+	padding:0;
+}
+html{
+	overflow-y:scroll;
+}
+fieldset,img{
+	border:0 none;
+}
+dl,ul,ol,menu,li{
+	list-style:none;
+}
+blockquote, q{
+	quotes:none;
+}
+blockquote:before, blockquote:after, q:before, q:after{content:'';}
+input,select,textarea,button{
+	border-radius:0;
+	vertical-align:middle;
+}
+input: :-ms-clear{
+	display:none;
+	}
+/*ie10 이상에서 텍스트박스에 생기는 X버튼 숨기기*/
+i,em,address{
+	font-style:normal;
+}
+button{
+	border:0 none;
+	background-color:transparent;
+	cursor:pointer;
+}
+body{
+	background:#fff;
+	direction:ltr;
+}
+body,th,td,input,select,textarea,button{
+	line-height:1.5;
+	font-family:AppleSDGothicNeo-Regular, 'Malgun Gothic', '맑은 고딕', dotum, '돋움', sans-serif; 
+	color:#222; 
+	letter-spacing:-1px;
+}
+a{
+	color:#222;
+	text-decoration:none;
+}
+a:hover{
+	color:#5c26ff;
+	text-decoration:underline;
+	/* .padding:10px; -> 익스 하위버전 인식시에 사용*/
+	}
+a:active{
+	background-color:transparent;
+}
+address,caption,cite,code,dfn,em,var{
+	font-style:normal; 
+	font-weight:bold;
+}
+.fl{float:left;}
+.cf:after{
+	content:'';
+	display:block;
+	clear:both;
+	}

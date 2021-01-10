@@ -1,0 +1,388 @@
+<!doctype html>
+<html lang="ko">
+<head>
+	<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />	
+	<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"/>
+
+	<link rel="shortcut icon" href="img/favicon.ico"/>
+	<link rel="stylesheet" href="css/reset.css"/>
+	<link rel="stylesheet" href="css/style.css"/>
+	<link rel="https://unpkg.com/swiper/swiper-bundle.css"/>
+	<script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+	<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+	<script src="js/jquery-ui-1.10.4.custom.min.js"></script>
+	<script src="js/jquery.cookie.js"></script>	
+	<script src="js/main.js"></script>	
+	<script src="js/menu.js"></script>
+	<script src="js/slide.js"></script>
+	<title>라이프시어터, MegaBox</title>
+</head>
+<body>
+	<div class="open"> 
+		 <ul class="pop"> 
+			 <li class="pop_drop">
+				<img src="img/popBanner.jpg" height="90"alt="open"/>
+			 </li> 
+			 <li class="pop_menu"> 
+				<img src="img/btn-choice-dell.png" width="20" height="20" alt="button"/> 
+			 </li> 
+			</ul> 
+	</div><!-- //open --> 
+	<div class="popWrap"> 
+		<p class="draggable"> 
+			<img src="img/popUp.jpg" width="400" height="400" alt="popUp"/> 
+			<div class="popUpBottom">
+				 <input type="checkbox" class="no_see fl"/> 
+				 <span class="fl">다시보지않기</span> 
+				 <a href="#" class="closeButtom fl"><img src="img/btn-close-main-notice.png" alt="x"/></a> 
+				
+			</div>
+		</p>
+	</div> 
+	<div id="wrap">
+		<div id="header">
+			<div id="gnbWrap">
+				<div id="gnbTop">
+					<ul class="gnbTopUl">
+						<li class="fl marginN"><a href="#">VIP LOUNGE</a></li>
+						<li class="fl"><a href="#">멤버십</a></li>
+						<li class="fl"><a href="#">고객센터</a></li>
+						<li class="fr"><a href="#">로그인</a></li>
+						<li class="fr"><a href="#">회원가입</a></li>
+						<li class="fr"><a href="#">빠른예매</a></li>
+					</ul>
+				</div>
+				<div id="gnbIcon">
+					<ul class="iconUl">
+						<li class="fl marginN"><a href="#"><img src="img/ico-sitemap-white.png" width="18" alt="햄버거"/></a></li>
+						<li class="fl"><a href="#"><img src="img/ico-search-white.png" width="18" alt="검색아이콘"/></a></li>
+						<li class="fr"><a href="#"><img src="img/ico-schedule-white.png" width="24" alt="스케줄"/></a></li>
+						<li class="fr"><a href="#"><img src="img/ico-mymega-white.png" width="18" alt="사람"/></a></li>
+					</ul>				
+				</div>
+				<div id="mainLogo"><a href="#"><img src="img/main_logo.png" alt=""/></a></div>
+				<ul id="gnbBottom">
+					<li class="gnb01 fl marginN">
+						<a href="#">영화</a>
+						<div class="sGnbArea">
+							<ul class="sGnb01">
+								<li class="sGnb01_1 fl"><a href="#">전체영화</a></li>
+								<li class="sGnb01_1 fl"><a href="#">큐레이션</a></li>
+								<li class="sGnb01_1 fl"><a href="#">무비포스트</a></li>
+							</ul>
+						</div><!-- //sGnbArea -->
+					</li><!-- //gnb01 -->
+					<li class="gnb02 fl">
+						<a href="#">예매</a>
+						<div class="sGnbArea">
+							<ul class="sGnb02">
+								<li class="sGnb01_1 fl"><a href="#">빠른예매</a></li>
+								<li class="sGnb01_1 fl"><a href="#">상영시간표</a></li>
+								<li class="sGnb01_1 fl"><a href="#">더 부티크 프라이빗 예매</a></li>
+							</ul>
+						</div><!-- //sGnbArea -->
+					</li><!-- //gnb02 -->
+					<li class="gnb03 fl">
+						<a href="#">극장</a>
+						<div class="sGnbArea">
+							<ul class="sGnb03">
+								<li class="sGnb01_1 fl"><a href="#">전체극장</a></li>
+								<li class="sGnb01_1 fl"><a href="#">특별관</a></li>
+							</ul>
+						</div><!-- //sGnbArea -->
+					</li><!-- //gnb03 -->
+					<li class="gnb04 fr marginR">
+						<a href="#">이벤트</a>
+						<div class="sGnbArea">
+							<ul class="sGnb04">
+								<li class="sGnb01_1 fr"><a href="#">진행중 이벤트</a></li>
+								<li class="sGnb01_1 fr"><a href="#">지난 이벤트</a></li>
+								<li class="sGnb01_1 fr"><a href="#">당첨자 발표</a></li>
+							</ul>
+						</div><!-- //sGnbArea -->
+					</li><!-- //gnb04 -->
+					<li class="gnb05 fr">
+						<a href="#">스토어</a>
+					</li><!-- //gnb04 -->
+					<li class="gnb06 fr ">
+						<a href="#">혜택</a>
+						<div class="sGnbArea">
+							<ul class="sGnb05">
+								<li class="sGnb01_1 fr"><a href="#">메가박스 멤버십</a></li>
+								<li class="sGnb01_1 fr"><a href="#">제휴/할인</a></li>
+							</ul>
+						</div><!-- //sGnbArea -->
+					</li><!-- //gnb04 -->
+				</ul><!-- //gnb -->
+				<div id="menuBg"></div>
+			</div><!-- //gnbWrap -->
+		</div><!-- //header -->
+		<div id="contents">
+			<div class="bg">
+				<div class="bgPattern"></div>
+				<img src="img/bg.jpg" alt=""/>
+			</div>
+			<div class="con1">
+				<div class="con1Contents">
+					<div class="textBox"><a href="#">박스오피스</a></div>
+					<div class="more"><a href="#">더 많은 영화보기 <i class="plus fl"></i></a></div>
+					<div class="posteBoxWrap">
+						<div class="posterBox fl">
+							<div class="poster1Rank">1</div>
+							<div class="poster1"></div>
+							<div class="textWrap hover">
+								<div class="preview">
+									"마이 드림 이즈 커리어우먼" <br/><br/>
+									1995년, 토익 600점만 넘으면 대리가 될 수 있다! <br/>
+									입사 8년차 동기인 말단 여직원들이 ‘삼진그룹 영어토익반’에 모인다!
+								</div>
+								<div class="texWrapBottom">
+									<div class="review fl">관람평</div>
+									<div class="score fl">9</div>
+								</div>
+							</div>
+							<div class="loveit fl"><a href="#"><i class="loveIco fl"></i>856</a></div>
+							<div class="reserve fl"><a href="#">예매</a></div>
+						</div>
+						<div class="posterBox fl">
+							<div class="poster2Rank">2</div>						
+							<div class="poster2"></div>
+							<div class="textWrap hover">
+								<div class="preview">
+									"박자가 안 맞잖아, 다시!" <br/><br/>
+									뉴욕의 명문 셰이퍼 음악학교에서
+									최고의 스튜디오 밴드에 들어가게 된 신입생 '앤드류'
+									
+									최고의 지휘자이지만 동시에 최악의 폭군인 '플레쳐'교수는
+									폭언과 학대로 '앤드류'를 한계까지 몰아붙이고 또 몰아붙인다.
+								</div>
+								<div class="texWrapBottom">
+									<div class="review fl">관람평</div>
+									<div class="score fl">9.4</div>
+								</div>
+							</div>							
+							<div class="loveit fl"><a href="#"><i class="loveIco fl"></i>856</a></div>
+							<div class="reserve fl"><a href="#">예매</a></div>						
+						</div>
+						<div class="posterBox fl">
+							<div class="poster3Rank">3</div>
+							<div class="poster3"></div>							
+							<div class="textWrap hover">
+								<div class="preview">
+									마술사 '마스터'와 영령 '서번트'가 모든 소원을 이뤄주는 '성배'를 둘러싸고 싸우는 '성배전쟁'. 하지만 그 싸움은 일그러져 있었다.
+									마토 사쿠라는 자신이 저지른 죄와 함께 마키리의 잔으로서 각성하여 깊은 어둠 속에 빠지고 말았다.
+								</div>
+								<div class="texWrapBottom">
+									<div class="review fl">관람평</div>
+									<div class="score fl">9.7</div>
+								</div>
+							</div>
+							<div class="loveit fl"><a href="#"><i class="loveIco fl"></i>856</a></div>
+							<div class="reserve fl"><a href="#">예매</a></div>					
+						</div>
+						<div class="posterBox fl">
+							<div class="poster4Rank">4</div>						
+							<div class="poster4"></div>
+							<div class="textWrap hover">
+								<div class="preview">
+									2020년 여름 최고 흥행작 <br/><br/>	
+									하드보일드 추격액션의 역사를 바꾸다
+									
+									태국에서 충격적인 납치사건이 발생하고
+									마지막 청부살인 미션을 끝낸 암살자 인남(황정민)은 그것이 자신과 관계된 것임을 알게 된다.
+									인남은 곧바로 태국으로 향하고, 조력자 유이(박정민)를 만나 사건을 쫓기 시작한다.
+								</div>
+								<div class="texWrapBottom">
+									<div class="review fl">관람평</div>
+									<div class="score fl">8.5</div>
+								</div>
+							</div>
+							<div class="loveit fl"><a href="#"><i class="loveIco fl"></i>856</a></div>
+							<div class="reserve fl"><a href="#">예매</a></div>
+						</div>
+					</div><!-- //posteBoxWrap -->
+					<div class="searchLink">
+						<div class="searchCell fl">
+							<div class="searchMini">
+								<input type="text" title="영화검색" placeholder="영화명을 입력해주세요" class="inputText"/>
+								<a href="#"><i class="searchIco2 fl"></i></a>
+							</div>
+						</div>
+						<div class="searchCell fl"><a href="#"><i class="scheduleIco fl"></i>상영시간표</a></div>
+						<div class="searchCell fl"><a href="#"><i class="boxOfficeIco fl"></i>박스오피스</a></div>
+						<div class="searchCell fl"><a href="#"><i class="reserveIco fl"></i>빠른예매</a></div>
+					</div>
+					<div class="slideBox">
+						<div class="slideIcon"></div>
+					</div>
+				</div><!-- //con1Contents -->
+			</div><!-- //con1 -->
+			<div class="con2">
+				<div class="con2Content">
+					<div class="tit">혜택</div>
+					<div class="more"><a href="#"></a></div>
+					<div class="con2ContentsTop">
+						<div class="eventLeft ">
+							<div class="eventLeftTop swiper-container">
+								<div class="eventSlideWrap swiper-wrapper ">
+									<div class="eventSlide fl swiper-wrappe">
+										<div class="eventLeftText fl"></div>
+										<div class="eventLeftImg fl"></div>
+									</div>
+									<div class="eventSlide left700  swiper-wrappefl">
+										<div class="eventLeftText fl"></div>
+										<div class="eventLeftImg fl"></div>
+									</div>
+								</div>
+								<div class="eventLeftControl ">
+									<div class="page swiper-pagination fl">
+										<span></span>
+										<span></span>
+										<span></span>
+										<span></span>
+										<span></span>
+										<span></span>
+									</div>
+									<div class="until fl">
+									  <div class="button left"></div>
+									  <div class="button right"></div>
+									  <div class="button start"></div>
+									  <div class="button stop"></div>
+									</div>
+									<div class="pageCount fl">2 / 6</div>
+								</div><!-- //eventLeftControl -->
+							</div><!-- //eventLeftTop -->
+							<div class="eventLeftBottom">
+								<div class="eventLeftBottomLong"></div>
+								<div class="eventLeftBottomShort"></div>
+							</div>
+						</div><!-- //eventLeft -->
+						<div class="eventRight"></div><!-- //eventRight -->
+					</div><!-- //con2ContentsTop -->
+					<div class="con2ContentsBottom">
+						<div class="con2ContentsBottomCell vip fl">
+							<a href="#">VIP LOUNGE</a>
+						</div>
+						<div class="con2ContentsBottomCell member fl">
+							<a href="#">멤버십</a>
+						</div>
+						<div class="con2ContentsBottomCell sale fl">
+							<a href="#">할인카드안내</a>
+						</div>
+						<div class="con2ContentsBottomCell event fl">
+							<a href="#">이벤트</a>
+						</div>
+						<div class="con2ContentsBottomCell store fl">
+							<a href="#">스토어</a>
+						</div>
+					</div><!-- //con2ContentsBottom -->
+				</div><!-- //con2Content -->
+			</div><!-- //con2-->
+			<div class="con3">
+				<div class="con3Content">
+					<div class="tit">큐레이션</div>
+					<div class="moreTxt"><a href="#">큐레이션 더보기</a><i class="more fr"></i></div>
+					<div class="con3ConLeft">
+						<div class="leftPoster"><img src="img/lRATjx1wexMZZPkgrswsSYUnRETiL1vm_420.jpg" width="320" alt="오페라"/></div>
+						<div class="posterPoint"></div>
+						<div class="intor fl"><a href="#">상세정보</a></div>
+						<div class="reserve fl"><a href="#">예매</a></div>
+					</div><!-- //con3ConLeft -->
+					<div class="con3ConRight">
+						<div class="rightTxt">
+							<p class="tagTxt">#클래식소사이어티</p>
+							<p class="movieTit">[오페라]지옥의 오페라</p>
+							<p class="movieInfo">
+								[상영정보] <br/><br/>
+								- 상영 지점 : 코엑스, 센트럴, 목동, 킨텍스, 분당, 성수, 세종청사 <br/>
+								- 러닝 타임 : 145분 * 인터미션 없음<br/>
+								- 상영 일정 : 2020년 10월 25일(일) ~ 2020년 11월 25일 (수) / 수 19:00 (목동, 센트럴 14:00), 일 14:00 상영 <br/>
+								- 배급사 사정에 따라 상영 일정 및 지점 등이 변경될 수 있습니다.
+							</p>
+						</div><!-- //rightTxt -->
+						<div class="rightPosterWrap">
+							<a href="#" class="rightPoster fl"><p class="pointMini1"></p><img src="img/fPnJoivKqvW7rX572iE3zbkMAbx8t87s_230.jpg" alt="위플래시"/><p class="movieName">위플래시</p></a>
+							<a href="#" class="rightPoster fl"><p class="pointMini2"></p><img src="img/eCrJsslKpzi8AkuS3wvCMvmfiVbLPxsT_230.jpg" alt="베이비티스"/><p class="movieName">베이비티스</p></a>
+							<a href="#" class="rightPoster fl"><p class="pointMini3"></p><img src="img/0oQd8BAqS2uMTlYKQl59i1N800q7zrHB_230.jpg" alt="담쟁이"/><p class="movieName">담쟁이</p></a>
+							<a href="#" class="rightPoster marginNone fl"><p class="pointMini4"></p><img src="img/YKVtsojfSJhzbWxPIWoE1RWbxaP2wnLf_230.jpg" alt="종이꽃"/><p class="movieName">종이꽃</p></a>
+						</div><!-- //rightPosterWrap -->
+					</div><!-- //con3ConRight -->
+				</div><!-- //con3Content -->
+			</div><!-- //con3 -->
+			<div class="con4">
+				<div class="con4ContentTop">
+					<div class="tit">메가박스안내</div>
+					<div class="con4Top">
+						<a href="#" class="topBox fl dolby">
+							<a href="#" class="newBox">NEW</a>
+						</a>
+						<a href="#" class="topBox fl private"></a>
+						<a href="#" class="topBox fl boutique"></a>
+						<a href="#" class="topBox fl mx"></a>
+						<a href="#" class="topBox fl comfort"></a>
+						<a href="#" class="topBox fl kid marginNone"></a>
+					</div><!-- //con4Top -->
+				</div><!-- //con4ContentTop -->
+				<div class="con4ContentMiddle">
+					<div class="con4Middle">
+						<div class="noticeWrap">
+							<div class="noticeTit fl"><a href="#">메가박스</a></div>
+							<div class="noticeLink fl"><a href="#"><strong>[공지]</strong>&nbsp;&nbsp;[공지]&nbsp;캐릭터 옴팡이 블라인드 피규어 제공방식 및 교환 안내</a></div>
+							<div class="noticeDate fl"><a href="#">2020.10.29</a></div>
+							<div class="noticeMore fl"><a href="#">더보기 <i class="moreArrow"></i></a></div>
+						</div><!-- //noticeWrap -->
+					</div><!-- //con4Middle -->
+				</div><!-- //con4ContentMiddle -->
+				<div class="con4ContentBottom">
+					<div class="con4Bottom">
+						<div class="bottomCell fl"><a href="#"><i class="headphone"></i><span>고객센터</span></a></div>
+						<div class="bottomCell fl"><a href="#"><i class="qna"></i><span>자주 묻는 질문</span></a></div>
+						<div class="bottomCell fl"><a href="#"><i class="onebyone"></i><span>1:1문의</span></a></div>
+						<div class="bottomCell fl"><a href="#"><i class="group"></i><span>단체/대관문의</span></a></div>
+						<div class="bottomCell fl"><a href="#"><i class="lost"></i><span>분실물 문의/접수</span></a></div>
+						<div class="bottomCell fl"><a href="#"><i class="butiqe"></i><span>더 부티크 프라이빗 <br/>대관예매</span></a></div>
+					</div><!-- //con4Bottom -->
+				</div><!-- //con4ContentBottom -->
+			</div><!-- //con4 -->
+			<div class="eventBannerBottom">
+				<img src="img/d6d71a958338bc6b1cf6432f301e6536.jpg" alt=""/>
+			</div><!-- //eventBannerBottom -->
+		</div><!-- //contents -->
+		<div id="footer">
+			<div class="footerContent">
+				<div class="footerTop">
+					<ul class="fnb">
+						<li class="fl"><a href="#">회사소개</a></li>
+						<li class="fl"><a href="#">인재채용</a></li>
+						<li class="fl"><a href="#">사회공헌</a></li>
+						<li class="fl"><a href="#">재휴/광고/부대사업문의</a></li>
+						<li class="fl"><a href="#">이용약관</a></li>
+						<li class="fl"><a href="#"><strong>개인정보처리방침</strong></a></li>
+						<li class="fl"><a href="#">윤리경연</a></li>
+					</ul>
+					<a href="#" class="lookingTheatle"><i class="looking"></i> 극장찾기</a>
+				</div><!-- //footerTop -->
+				<div class="footerBottom">
+					<div class="footerLogo"></div>
+					<div class="footerTxt">
+						<address class="fl">서울특별시 성동구 왕십리로 50, 6층(성수동 1가, 메가박스스퀘어)</address><p>ARS 1544-0070</p>
+						<p>대표자명 · 개인정보보호책임자 조상연 · 사업자등록번호 211-86-59478 · 통신판매업신고번호 제 833호</p>
+						<p>COPYRIGHT © MegaboxJoongAng, Inc. All rights reserved</p>
+					</div>
+					<div class="footerSns">
+						<ul class="snsWrap">
+							<li class="fl"><a class="twt" href="#"></a></li>
+							<li class="fl"><a class="faceBook" href="#"></a></li>
+							<li class="fl"><a class="insta" href="#"></a></li>
+							<li class="fl"><a class="google" href="#"></a></li>
+							<li class="fl"><a class="apple" href="#"></a></li>
+						</ul>
+					</div>
+					<div class="markup"><img src="img/html5-blue.png" alt=""/></div>
+				</div>
+			</div>
+		</div><!-- //footer -->
+	</div><!-- //wrap -->
+</body>
+</html>

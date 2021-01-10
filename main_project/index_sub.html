@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="ko">
+<head>
+	<meta charset="UTF-8">
+	<title>예약하기</title>
+	<link rel="stylesheet" href="css/basic.css"/>
+	<link rel="stylesheet" href="css/style_sub.css"/>
+	<script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+	<script src="js/script_sub.js"></script>	
+</head>
+<body>
+	<div id="wrap">
+			<div id="header" class="stickyHeader">
+				<div class="headerCon stickyInner">
+					<ul class="lnb stickyLnb fl">
+						<li>
+							<a href="#">제주-도</a>
+							<ul class="depth2">
+								<li><a href="#">오시는 길</a></li>
+								<li><a href="#">'오직제주'는</a></li>
+								<li><a href="#">제주관광지 추천</a></li>
+							</ul>
+						</li>
+						<li>
+							<a href="#">방둘러보기</a>
+							<ul class="depth2">
+								<li><a href="#">북동쪽</a></li>
+								<li><a href="#">북서쪽</a></li>
+								<li><a href="#">남동쪽</a></li>
+								<li><a href="#">남서쪽</a></li>
+							</ul>							
+						</li>
+						<li>
+							<a href="#">이벤트</a>
+							<ul class="depth2">
+								<li><a href="#">특별 패키지</a></li>
+								<li><a href="#">이벤트</a></li>
+								<li><a href="#">금주의 특가</a></li>
+							</ul>							
+						</li>
+						<li>
+							<a href="#">공지사항</a>
+							<ul class="depth2">
+								<li><a href="#">예약현황</a></li>
+								<li><a href="#">공지사항</a></li>
+							</ul>							
+						</li>
+						<li>
+							<a href="#">예약하기</a>
+							<ul class="depth2">
+								<li><a href="#">예약하기</a></li>
+								<li><a href="#">예약확인</a></li>
+								<li><a href="#">취소/문의</a></li>
+							</ul>							
+						</li>
+					</ul><!-- //lnb -->
+					<ul class="gnb fl">	
+						<li><a href="#">로그인</a></li>
+						<li><a href="#">회원가입</a></li>
+					</ul><!-- //gnb -->
+				</div><!-- //headerCon -->
+			</div><!-- //header -->
+		<div id="contents cf">
+			<div class="left fl">
+				<div class="searchWrap cf">
+					<select name="where" id="where" placeholder="출발일" class="fl">
+						<option value="서귀포">서귀포</option>
+						<option value="중문">중문</option>
+						<option value="애월">애월</option>
+						<option value="구좌">구좌</option>
+					</select>
+					<input type="date" placeholder="출발일" class="fl"/>
+				</div>
+				<div class="roomWrap"></div>
+			</div>
+			<div class="right fl map"></div>
+		</div>
+		<div id="footer"></div>
+	</div>
+</body>
+</html>

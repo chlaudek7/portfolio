@@ -1,0 +1,679 @@
+<!doctype html>
+<html lang="ko">
+<head>
+	<meta charset="UTF-8">	
+	<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1.0, maximum-scale=1.6" />
+	<meta name="Generator" content="Notepad++"/>
+	<meta name="title" content="ppeum"/>
+	<meta name="Author" content="이가영"/>
+	<meta name="keyword" content="ppeum, 쁨, 쁨클리닉"/>
+	<meta name="Description" content="쁨클리닉 웹디자인 포트폴리입니다. ."/>
+	<meta name="Location" content="Seoul Korea"/>
+	<meta name="Author-Date" content="2020.10.07"/>
+	<meta name="Copyright" content="PPEUM"/>
+	<meta name="Robots" content="index,follow"/>	
+	<title>쁨 클리닉 포트폴리오</title>
+	<link rel="stylesheet" href="css/reset.css"/>
+	<link rel="stylesheet" href="css/style1.css"/>
+	<script src="js/jquery-1.7.1.min.js"></script>
+	<script src="js/jquery-ui-1.10.4.custom.min.js"></script>
+	<script src="js/jquery.cookie.js"></script>
+	<script src="js/script.js"></script>
+	<script src="js/script2.js"></script>
+</head>
+<body>
+	<div class="open">
+		<ul class="pop">
+			<li class="pop_drop"><img src="images/popup02.jpg" width="1336" height="253" alt="open"/></li>
+			<li class="pop_menu"><img src="images/pop_open.png" width="272" height="36" alt="open"/></li>
+		</ul>
+	</div> <!-- /.open -->
+	<div class="pop_wrap">
+		<p class="draggable">
+			<img src="images/adpop1.jpg" width="450" height="400" alt="popup" usemap="#pop"/>
+			<map name="pop" class="pop">
+				<area shape="rect" coords="395,380,471,398" href="#" alt="창닫기"/>
+				<area shape="rect" coords="276,379,392,395" href="#" alt="하루동안보지않기"/>
+			</map>
+		</p>
+	</div>
+	<div id="wrap">
+		<div id="line"></div>
+		<div id="header">
+			<div class="container">
+				<a href="index.html"><span class="logo ir_so">쁨클리닉로고</span></a>
+				<div class="top_header">
+					<h1 class="ir_so">오늘보다 더 예쁜 내일</h1>
+					<form action="#" method="get" class="search">
+						<input type="text" class="guideText" value="검색어를 입력해 주세요" size="30"/>
+						<input type="image" src="images/bt_search.jpg" alt="search_img" class="search_img"/>
+					</form>
+					<ul class="gnb">
+						<li><a href="#"><img src="images/qna.jpg" alt="채팅하기" onmouseover="this.src='images/qna_on.jpg'" onmouseout="this.src='images/qna.jpg'"/></a></li>
+						<li><a href="#"><img src="images/login.jpg" alt="로그인하기" onmouseover="this.src='images/login_on.jpg'" onmouseout="this.src='images/login.jpg'"/></a></li>
+						<li><a href="#"><img src="images/map.jpg" alt="오시는길" onmouseover="this.src='images/map_on.jpg'" onmouseout="this.src='images/map.jpg'"/></a></li>
+						<li><a href="#"><img src="images/ch.jpg" alt="중국어"></a></li>
+						<li><a href="#"><img src="images/ru.jpg" alt="러시아어"></a></li>
+						<li><a href="#"><img src="images/en.jpg" alt="영어"></a></li>
+					</ul>   <!-- //.gnb -->
+				</div> <!-- //.top_header -->
+				<div class="nav">
+					<ul class="top_nav cf">
+						<li class="nav_tit">
+							<a href="#">쁨클리닉 소개</a>
+							<div class="drop">
+								<p>
+									<span class="text1">쁨클리닉 소개</span>
+									<span class="text2">오늘보다 더 예쁜 내일</span>
+									<img src="images/gnb0bg.jpg" width="209" height="413" alt="쁨클리닉 소개"/>
+								</p>
+								<ul class="tit_sub cf">
+									<li><a href="#">쁨 선택의 이유</a></li>
+									<li><a href="#">26년 무사고</a></li>
+									<li><a href="#">수술 후 관리</a></li>
+									<li><a href="#">의료진 소개</a></li>
+									<li><a href="#">연혁 소개</a></li>
+									<li><a href="#">학술 및 대외활동</a></li>
+									<li><a href="#">NEW에 비친 쁨</a></li>
+									<li><a href="#">TV에 비친 쁨</a></li>
+									<li><a href="#">진료시간 및 병원안내</a></li>
+									<li></li>
+								</ul>
+							</div>
+						</li>
+						<li class="nav_tit">
+							<a href="#">안티에이징</a>
+							<div class="drop">
+								<p>
+									<span class="text1">안티에이징</span>
+									<span class="text2">비밀스럽게 예뻐지자</span>
+									<img src="images/gnb0bg.jpg" width="209" height="331" alt="안티에이징"/>
+								</p>
+								<ul class="tit_sub cf">
+									<li><a href="#">쁨 리프팅</a></li>
+									<li><a href="#">레이저 리프팅</a></li>
+									<li><a href="#">눈밑지방재배치</a></li>
+									<li><a href="#">눈썹거상술</a></li>
+									<li><a href="#">상안검수술</a></li>
+									<li><a href="#">하안검수술</a></li>
+									<li><a href="#">눈밑애교살</a></li>
+									<li><a href="#">부위별 주름개선</a></li>
+								</ul>
+							</div>
+						</li>
+						<li class="nav_tit">
+							<a href="#">흉터/재생</a>
+							<div class="drop">
+								<p>
+									<span class="text1">흉터/재생</span>
+									<span class="text2">자연스럽고 감쪽같은 피부</span>
+									<img src="images/gnb0bg.jpg" width="209" height="290" alt="흉터/재생"/>
+								</p>
+								<ul class="tit_sub cf">
+									<li><a href="#">흉터</a></li>
+									<li><a href="#">튼살</a></li>
+									<li><a href="#">탈모</a></li>
+									<li><a href="#">문신제거</a></li>
+									<li><a href="#">이물질제거</a></li>
+									<li></li>
+									<li></li>
+								</ul>
+							</div>
+						</li>
+						<li class="nav_tit">
+							<a href="#">얼굴살윤곽</a>
+							<div class="drop">
+								<p>
+									<span class="text1">얼굴살윤곽</span>
+									<span class="text2">연예인 부럽지 않은 V라인</span>
+									<img src="images/gnb0bg.jpg" width="209" height="331" alt="얼굴살윤곽"/>
+								</p>
+								<ul class="tit_sub cf">
+									<li><a href="#">비너스 V윤곽슬</a></li>
+									<li><a href="#">비너스 V리프팅</a></li>
+									<li><a href="#">이마지방이식</a></li>
+									<li><a href="#">불지방이식</a></li>
+									<li><a href="#">무턱교정</a></li>
+									<li><a href="#">사각턱수술</a></li>
+									<li><a href="#">사각턱보톡스</a></li>
+									<li></li>
+								</ul>
+							</div>
+						</li>
+						<li class="nav_tit">
+							<a href="#">가슴/재수술</a>
+							<div class="drop">
+								<p>
+									<span class="text1">가슴/재수술</span>
+									<span class="text2">자연스럽고 아름다운 볼륨감</span>
+									<img src="images/gnb0bg.jpg" width="209" height="331" alt="가슴/재수술"/>
+								</p>
+								<ul class="tit_sub cf">
+									<li><a href="#">모티바가슴성형</a></li>
+									<li><a href="#">물방울가슴성형</a></li>
+									<li><a href="#">코젤가슴성형</a></li>
+									<li><a href="#">지방이식가슴성형</a></li>
+									<li><a href="#">유두교정</a></li>
+									<li><a href="#">가슴재수술</a></li>
+									<li><a href="#">가슴필러제거</a></li>
+									<li></li>
+								</ul>
+							</div>
+						</li>
+						<li class="nav_tit">
+							<a href="#">코/재수술</a>
+							<div class="drop">
+								<p>
+									<span class="text1">코/재수술</span>
+									<span class="text2">오똑하고 아름다운 곡선</span>
+									<img src="images/gnb0bg.jpg" width="209" height="331" alt="코/재수술"/>
+								</p>
+								<ul class="tit_sub cf">
+									<li><a href="#">코성형수술</a></li>
+									<li><a href="#">메부리코</a></li>
+									<li><a href="#">휜코</a></li>
+									<li><a href="#">화살코</a></li>
+									<li><a href="#">들창코</a></li>
+									<li><a href="#">코끝성형</a></li>
+									<li><a href="#">콧볼축소</a></li>
+									<li><a href="#">코재수술</a></li>
+								</ul>
+							</div>
+						</li>
+						<li class="nav_tit">
+							<a href="#">눈/재수술</a>
+							<div class="drop">
+								<p>
+									<span class="text1">눈/재수술</span>
+									<span class="text2">크고 또렷한 눈매의 완성</span>
+									<img src="images/gnb0bg.jpg" width="209" height="290" alt="눈/재수술"/>
+								</p>
+								<ul class="tit_sub cf">
+									<li><a href="#">쌍커플수술</a></li>
+									<li><a href="#">눈매교정</a></li>
+									<li><a href="#">앞트임</a></li>
+									<li><a href="#">뒤트임</a></li>
+									<li><a href="#">눈재수술</a></li>
+									<li></li>
+									<li></li>
+								</ul>
+							</div>
+						</li>
+						<li class="nav_tit">
+							<a href="#">레이저클리닉</a>
+							<div class="drop">
+								<p>
+									<span class="text1">레이저클리닉</span>
+									<span class="text2">간편하고 빠르게 아름다워지기</span>
+									<img src="images/gnb0bg.jpg" width="209" height="290" alt="레이저클리닉"/>
+								</p>
+								<ul class="tit_sub cf">
+									<li><a href="#">리프테라</a></li>
+									<li><a href="#">써마지</a></li>
+									<li><a href="#">프락셀</a></li>
+									<li><a href="#">미라드라인</a></li>
+									<li></li>
+									<li></li>
+									<li></li>
+								</ul>
+							</div>
+						</li>
+						<li class="nav_tit">
+							<a href="#">메디컬스킨케어</a>
+							<div class="drop left1">
+								<p>
+									<span class="text1">메디컬스킨케어</span>
+									<span class="text2">피부트러블 허쉬가 해결합니다</span>
+									<img src="images/gnb0bg.jpg" width="209" height="290" alt="메디컬스킨케어"/>
+								</p>
+								<ul class="tit_sub cf">
+									<li><a href="#">흉터/튼살</a></li>
+									<li><a href="#">문신제거</a></li>
+									<li><a href="#">다한증</a></li>
+									<li><a href="#">여드름/모공</a></li>
+									<li><a href="#">미백관리</a></li>
+									<li><a href="#">물광피부</a></li>
+									<li></li>
+ 								</ul>
+							</div>
+						</li>
+						<li class="nav_tit">
+							<a href="#">커뮤니티</a>
+							<div class="drop left2">
+								<p>
+									<span class="text1">커뮤니티</span>
+									<span class="text2">쁨클리닉 이야기</span>
+									<img src="images/gnb0bg.jpg" width="209" height="413" alt="커뮤니티"/>
+								</p>
+								<ul class="tit_sub cf">
+									<li><a href="#">감사합니다. 고객님</a></li>
+									<li><a href="#">스타와 함께</a></li>
+									<li><a href="#">리얼스토리</a></li>
+									<li><a href="#">전후사진</a></li>
+									<li><a href="#">알쏭달쏭 성형상식</a></li>
+									<li><a href="#">채용/모집</a></li>
+									<li><a href="#">공지사항</a></li>
+									<li><a href="#">이달의 포커스</a></li>
+									<li></li>
+									<li></li>
+								</ul>
+							</div>
+						</li>
+						<li class="nav_tit">
+							<a href="#">상담센터</a>
+							<div class="drop left3">
+								<p>
+									<span class="text1">상담센터</span>
+									<span class="text2">궁금한 점을 쉽게 설명해드립니다.</span>
+									<img src="images/gnb0bg.jpg" width="209" height="290" alt="상담센터"/>
+								</p>
+								<ul class="tit_sub cf">
+									<li><a href="#">온라인상담</a></li>
+									<li><a href="#">네이버톡톡</a></li>
+									<li><a href="#">네이버예약</a></li>
+									<li><a href="#">수술후 상담</a></li>
+									<li></li>
+									<li></li>
+									<li></li>
+								</ul>
+							</div>
+						</li>
+					</ul>
+				</div>  <!-- //#nav -->
+			</div>  <!-- // #container -->
+		</div>  <!-- //#header -->
+		<div id="banner">
+			<div id="brandVisual">
+				<ul>
+					<li class="image1">
+						<img src="images/main_visual_04.jpg" width="2000" height="887" alt="main1"/>
+					</li>
+					<li class="image2">
+						<img src="images/main_visual_02.jpg" width="2000" height="887" alt="main2"/>				
+					</li>
+					<li class="image3">
+						<img src="images/main_visual_05.jpg" width="2000" height="887" alt="main3"/>					
+					</li>
+					<li class="image4">
+						<img src="images/main_visual_13.jpg" width="2000" height="887" alt="main4"/>					
+					</li>
+					<li class="image5">
+						<img src="images/main_visual_15.jpg" width="2000" height="887" alt="main5"/>					
+					</li>
+					<li class="image6">
+						<img src="images/main_visual_17.jpg" width="2000" height="887" alt="main6"/>					
+					</li>
+				</ul>
+			</div> <!-- //#brandVisual -->
+			<div class="btnImg">
+				<img src="images/left.png" class="prev fl" width="30" height="50" alt="prev"/>
+				<img src="images/right.png" class="next fr" width="30" height="50" alt="next"/>
+			</div>
+			<ul class="buttonList">
+				<li class="on"><a href="#">배너1</a></li>
+				<li><a href="#">배너2</a></li>
+				<li><a href="#">배너3</a></li>
+				<li><a href="#">배너4</a></li>
+				<li><a href="#">배너5</a></li>
+				<li><a href="#">배너6</a></li>
+			</ul>
+		</div><!--//# banner -->
+
+		<!-- 서버에는 index.html이 꼭 하나 있어야함 -->
+		<div id="content">
+			<div class="container">
+				<div class="row">
+					<h2 class="ir_so">배너1</h2>
+					<div class="content1">
+						<div class="left"><a href="#"><img src="images/bt_left.jpg" width="57" height="68" alt="이전이미지"/></a></div>
+						<div class="right"><a href="#"><img src="images/bt_right.jpg" width="57" height="68" alt="다음이미지"/></a></div>
+						<div class="slide01">
+							<ul>
+								<li class="middle"><a href="#">26년 무사고</a></li>
+								<li class="middle"><a href="#">보건복지부</a></li>
+								<li class="middle"><a href="#">보건산업대상</a></li>
+								<li class="middle"><a href="#">안전한 병원</a></li>
+								<li class="middle"><a href="#">미국 성형외과학회</a></li>
+								<li class="middle"><a href="#">글로벌 쁨</a></li>
+								<li class="middle"><a href="#">믿을 수 있는 병원</a></li>
+								<li class="middle"><a href="#">전문가와의 상담</a></li>
+								<li class="middle"><a href="#">세계로 뻗어나가는 k뷰티</a></li>
+								<li class="middle"><a href="#">고객맞춤</a></li>
+								<li class="middle"><a href="#">안전한 시술</a></li>
+								<li class="middle"><a href="#">후기가 증명하는 병원</a></li>
+								<li class="middle"><a href="#">후기가 증명하는 병원</a></li>
+							</ul>
+						</div>
+					</div>
+				</div> <!-- //.row -->
+				<div class="row">
+					<div class="content2">
+						<h2 class="ir_so">리얼스토리</h2>
+						<div class="content2_title">
+							<img src="images/realstory_tit.jpg" alt="realstory_tit"/>
+						</div>
+						<div class="content2_banner">
+							<ul>
+								<li>	
+									<img src="images/pic_01.jpg" width="167" height="171"alt="배너1"/><span class="color"><a href="#">슈링크+윤곽주사 <br/>+ <br/></a></span>
+								</li>
+								<li>
+									<img src="images/pic_02.jpg" width="167" height="171" alt="배너1"/><span class="color"><a href="#">슈링크+윤곽주사 <br/>+ <br/></a></span>
+								</li>
+								<li>
+									<img src="images/pic_03.jpg" width="167" height="171" alt="배너1"/><span class="color"><a href="#">슈링크+윤곽주사 <br/>+ <br/></a></span>		
+								</li>
+								<li>
+									<img src="images/pic_04.jpg" width="167" height="171" alt="배너1"/><span class="color"><a href="#">슈링크+윤곽주사 <br/>+ <br/></a></span>								
+								</li>
+								<li>
+									<img src="images/pic_05.jpg" width="167" height="171" alt="배너1"/><span class="color"><a href="#">슈링크+윤곽주사 <br/>+ <br/></a></span>								
+								</li>
+								<li>
+									<img src="images/pic_01.jpg" width="167" height="171" alt="배너1"/><span class="color"><a href="#">슈링크+윤곽주사 <br/>+ <br/></a></span>								
+								</li>
+								<li>
+									<img src="images/pic_02.jpg" width="167" height="171" alt="배너1"/><span class="color"><a href="#">슈링크+윤곽주사 <br/>+ <br/></a></span>
+								</li>
+								<li>
+									<img src="images/pic_03.jpg" width="167" height="171" alt="배너1"/><span class="color"><a href="#">슈링크+윤곽주사 <br/>+ <br/></a></span>
+								</li>
+								<li>
+									<img src="images/pic_04.jpg" width="167" height="171" alt="배너1"/><span class="color"><a href="#">슈링크+윤곽주사 <br/>+ <br/></a></span>								
+								</li>
+								<li>
+									<img src="images/pic_05.jpg" width="167" height="171" alt="배너1"/><span class="color"><a href="#">슈링크+윤곽주사 <br/>+ <br/></a></span>								
+								</li>
+								<li>
+									<img src="images/pic_01.jpg" width="167" height="171" alt="배너1"/><span class="color"><a href="#">슈링크+윤곽주사 <br/>+ <br/></a></span>								
+								</li>
+								<li>
+									<img src="images/pic_02.jpg" width="167" height="171" alt="배너1"/><span class="color"><a href="#">슈링크+윤곽주사 <br/>+ <br/></a></span>								
+								</li>
+								<li>
+									<img src="images/pic_03.jpg" width="167" height="171" alt="배너1"/><span class="color"><a href="#">슈링크+윤곽주사 <br/>+ <br/></a></span>								
+								</li>
+								<li>
+									<img src="images/pic_04.jpg" width="167" height="171" alt="배너1"/><span class="color"><a href="#">슈링크+윤곽주사 <br/>+ <br/></a></span>								
+								</li>
+								<li>
+									<img src="images/pic_05.jpg" width="167" height="171" alt="배너1"/><span class="color"><a href="#">슈링크+윤곽주사 <br/>+ <br/></a></span>								
+								</li>
+								<li>
+									<img src="images/pic_01.jpg" width="167" height="171" alt="배너1"/><span class="color"><a href="#">슈링크+윤곽주사 <br/>+ <br/></a></span>								
+								</li>
+							</ul>
+						</div>
+					</div> <!-- // .content2 -->
+				</div> <!-- // .row -->
+				<div class="row">
+					<div class="content3">
+						<h2 class="ir_so">컨텐츠3</h2>
+						<div class="column col1">
+							<div class="board_tit">
+								<h3 class="imag">공지사항</h3>
+								<a href="#"><img src="images/more.jpg" alt="more" class="more"/></a>
+								<a href="#"><span class="board_img"><img src="images/event.png" alt="event.png" width="430" height="230"/></span></a>
+							</div>
+						</div> <!-- // .column col1 -->
+						<div class="column col2">
+							<h3 class="imag">스타와함께</h3>
+							<a href="#"><img src="images/more.jpg" alt="more" class="more"/></a>
+							<div class="notice">
+								<div class="tabSet">
+									<ul class="tabs">
+										<li><a href="#panel1-1" class="on">공지사항1</a></li>
+										<li><a href="#panel1-2">공지사항2</a></li>
+										<li><a href="#panel1-3">공지사항3</a></li>
+									</ul>
+									<div class="panels">
+										<div class="panel" id="panel1-1">
+											<ul>
+												<li><a href="#">영화배우 한지민 영화배우 한지민 영화배우 한지민</a><span>2019.10.20</span></li>
+												<li><a href="#">영화배우 한지민 영화배우 한지민 영화배우 한지민</a><span>2019.10.20</span></li>
+												<li><a href="#">영화배우 한지민 영화배우 한지민 영화배우 한지민</a><span>2019.10.20</span></li>
+												<li><a href="#">영화배우 한지민 영화배우 한지민 영화배우 한지민</a><span>2019.10.20</span></li>
+												<li><a href="#">영화배우 한지민 영화배우 한지민 영화배우 한지민</a><span>2019.10.20</span></li>
+												<li><a href="#">영화배우 한지민 영화배우 한지민 영화배우 한지민</a><span>2019.10.20</span></li>
+												<li><a href="#">영화배우 한지민 영화배우 한지민 영화배우 한지민</a><span>2019.10.20</span></li>
+											</ul>										
+										</div>										
+										<div class="panel" id="panel1-2">
+											<ul>
+												<li><a href="#">영화배우 한지민 영화배우 한지민 영화배우 김고은</a><span>2019.10.20</span></</li>
+												<li><a href="#">영화배우 한지민 영화배우 한지민 영화배우 김고은</a><span>2019.10.20</span></</li>
+												<li><a href="#">영화배우 한지민 영화배우 한지민 영화배우 김고은</a><span>2019.10.20</span></</li>
+												<li><a href="#">영화배우 한지민 영화배우 한지민 영화배우 김고은</a><span>2019.10.20</span></</li>
+												<li><a href="#">영화배우 한지민 영화배우 한지민 영화배우 김고은</a><span>2019.10.20</span></</li>
+												<li><a href="#">영화배우 한지민 영화배우 한지민 영화배우 김고은</a><span>2019.10.20</span></</li>
+												<li><a href="#">영화배우 한지민 영화배우 한지민 영화배우 김고은</a><span>2019.10.20</span></</li>
+											</ul>											
+										</div>
+										<div class="panel" id="panel1-3">
+											<ul>
+												<li><a href="#">영화배우 한지민 영화배우 한지민 영화배우 정유미</a><span>2019.10.20</span></</li>
+												<li><a href="#">영화배우 한지민 영화배우 한지민 영화배우 정유미</a><span>2019.10.20</span></</li>
+												<li><a href="#">영화배우 한지민 영화배우 한지민 영화배우 정유미</a><span>2019.10.20</span></</li>
+												<li><a href="#">영화배우 한지민 영화배우 한지민 영화배우 정유미</a><span>2019.10.20</span></</li>
+												<li><a href="#">영화배우 한지민 영화배우 한지민 영화배우 정유미</a><span>2019.10.20</span></</li>
+												<li><a href="#">영화배우 한지민 영화배우 한지민 영화배우 정유미</a><span>2019.10.20</span></</li>
+												<li><a href="#">영화배우 한지민 영화배우 한지민 영화배우 정유미</a><span>2019.10.20</span></</li>
+											</ul>										
+										</div>
+									</div>
+								</div>
+							</div>
+						</div> <!-- // .column col2 -->
+						<div class="column col3">
+							<h3 class="imag">쁨 유튜브</h3>
+							<iframe width="430" height="230" src="https://www.youtube.com/embed/oBfVdQ0S4cw" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+						</div> <!-- // .column col3 -->
+					</div> <!-- // .content3 -->
+				</div> <!-- // .row -->
+				<div class="row">
+					<div class="content4">
+						<div class="content4_banner">
+							<ul class="banner">
+								<li><a href="#"><img src="images/banner_01.jpg"  alt="banner_01"/></a></li>
+								<li><a href="#"><img src="images/banner_02.jpg" width="274" height="290" alt="banner_02"/></a></li>
+								<li><a href="#"><img src="images/banner_03.jpg" width="274" height="290" alt="banner_03"/></a></li>
+								<li><a href="#"><img src="images/banner_04.jpg" width="274" height="290" alt="banner_04"/></a></li>
+								<li><a href="#"><img src="images/banner_05.jpg" width="274" height="290" alt="banner_05"/></a></li>
+							</ul>
+							<ul class="banner">
+								<li><a href="#"><img src="images/banner_01.jpg"  alt="banner_01"/></a></li>
+								<li><a href="#"><img src="images/banner_02.jpg" width="274" height="290" alt="banner_02"/></a></li>
+								<li><a href="#"><img src="images/banner_03.jpg" width="274" height="290" alt="banner_03"/></a></li>
+								<li><a href="#"><img src="images/banner_04.jpg" width="274" height="290" alt="banner_04"/></a></li>
+								<li><a href="#"><img src="images/banner_05.jpg" width="274" height="290" alt="banner_05"/></a></li>
+							</ul>
+							<ul class="banner">
+								<li><a href="#"><img src="images/banner_01.jpg"  alt="banner_01"/></a></li>
+								<li><a href="#"><img src="images/banner_02.jpg" width="274" height="290" alt="banner_02"/></a></li>
+								<li><a href="#"><img src="images/banner_03.jpg" width="274" height="290" alt="banner_03"/></a></li>
+								<li><a href="#"><img src="images/banner_04.jpg" width="274" height="290" alt="banner_04"/></a></li>
+								<li><a href="#"><img src="images/banner_05.jpg" width="274" height="290" alt="banner_05"/></a></li>
+							</ul>
+						</div>
+					</div> <!-- // .content4 -->
+				</div> <!-- // .row -->
+				<div class="row row1">
+					<div class="content5">
+						<div class="partner">
+							<span class="left1">
+								<a href="#"><img src="images/partner_left.jpg" alt="left"/></a>
+							</span>
+							<ul>
+								<li class="partner1 par_mar">
+									<a href="#"><img src="images/partner.1.jpg" alt="partner1"/></a>
+								</li>
+								<li class="partner1">
+									<a href="#"><img src="images/partner.2.jpg" alt="partner2"/></a>
+								</li>
+								<li class="partner1">
+									<a href="#"><img src="images/partner.3.jpg" alt="partner3"/></a>
+								</li>
+								<li class="partner1">
+									<a href="#"><img src="images/partner.4.jpg" alt="partner4"/></a>
+								</li>
+							</ul>
+							<span class="right1">
+								<a href="#"><img src="images/partner_right.jpg" alt="right"/></a>
+							</span>
+						</div> <!-- // .partner -->
+					</div>
+				</div>  <!-- // .row .row1 -->
+			</div> <!-- // .container -->			
+		</div>  <!-- // #content -->
+		<div id="footer">
+			<div class="foot_information">
+				<p class="text1">쁨 클리닉은 26년간의 풍부한 임상 경험과 노하우를 바탕으로 자연스러운 미를 추구하고 있으며 <br/>미용성형을 중심으로 젊음을 유지하고 건강 및 활력을 증진시키는 종합적이고 체계적인 프로그램을 운영하고 있습니다.</p>
+				<ul class="foot_icon">
+					<li><a href="#"><img src="images/sns_01.jpg" alt="허쉬성형외과 오시는길"/></a></li>
+					<li><a href="#"><img src="images/sns_02.jpg" alt="허쉬성형외과 진료시간"/></a></li>
+					<li><a href="#"><img src="images/sns_03.jpg" alt="허쉬성형외과 오시는길"/></a></li>
+					<li><a href="#"><img src="images/sns_04.jpg" alt="허쉬성형외과 오시는길"/></a></li>
+					<li><a href="#"><img src="images/sns_05.jpg" alt="허쉬성형외과 오시는길"/></a></li>
+					<li><a href="#"><img src="images/sns_06.jpg" alt="허쉬성형외과 오시는길"/></a></li>
+				</ul>
+				<h2>상담문의 : 02.211.0254</h2>
+				<p class="text2">서울시 강남구 청담동 48번지 루비나빌딩 5.6층(도로명주소: 서울시 강남구 도산대로 502 6,7층) | <a href="#">[개인정보취급방침]</a><br/>사업자등록번호:211-09-46633 | TEL:02.222.2222 / FAX:02.111.1111 | 상호명 : 허쉬성형외과 | 대표자 : 정영춘 | 개인정보관리 책임자 : 전정환</p>
+			</div>  <!-- // .foot_information -->
+			<div class="foot_sitemap">
+			<div class="foot_sitemap">
+				<ul class="sitemap_list">
+					<li class="bordernone fl">쁨클리닉 소개
+						<ul>
+							<li><a href="#">쁨, 선택의 이유</a></li>
+							<li><a href="#">26년 무사고</a></li>
+							<li><a href="#">수술후 관리</a></li>
+							<li><a href="#">의료진소개</a></li>
+							<li><a href="#">연혁소개</a></li>
+							<li><a href="#">학술및대외활동</a></li>
+							<li><a href="#">NEWS에비친허쉬</a></li>
+							<li><a href="#">TV에비친허쉬</a></li>
+							<li><a href="#">진료시간</a></li>
+							<li><a href="#">찾아오시는길</a></li>
+						</ul>
+					</li>  <!-- // .bordernone fl -->
+					<li class="fl">안티에이징
+						<ul>
+							<li><a href="#">쁨 리프팅</a></li>
+							<li><a href="#">레이저 리프팅</a></li>
+							<li><a href="#">눈밑지방재배치</a></li>
+							<li><a href="#">눈썹거상술</a></li>
+							<li><a href="#">상안검수술</a></li>
+							<li><a href="#">하안검수술</a></li>
+							<li><a href="#">눈밑애교살</a></li>
+							<li><a href="#">부위별 주름개선</a></li>
+						</ul>
+					</li>
+					<li class="fl">흉터/재생
+						<ul>
+							<li><a href="#">흉터</a></li>
+							<li><a href="#">튼살</a></li>
+							<li><a href="#">탈모</a></li>
+							<li><a href="#">문신제거</a></li>
+							<li><a href="#">이물질제거</a></li>
+							<li></li>
+							<li></li>
+						</ul>
+					</li>
+					<li class="fl">얼굴살윤곽
+						<ul>
+							<li><a href="#">비너스 V윤곽슬</a></li>
+							<li><a href="#">비너스 V리프팅</a></li>
+							<li><a href="#">이마지방이식</a></li>
+							<li><a href="#">불지방이식</a></li>
+							<li><a href="#">무턱교정</a></li>
+							<li><a href="#">사각턱수술</a></li>
+							<li><a href="#">사각턱보톡스</a></li>
+						</ul>
+					</li>
+					<li class="fl">가슴/재수술
+						<ul>
+							<li><a href="#">모티바가슴성형</a></li>
+							<li><a href="#">물방울가슴성형</a></li>
+							<li><a href="#">코젤가슴성형</a></li>
+							<li><a href="#">지방이식가슴성형</a></li>
+							<li><a href="#">유두교정</a></li>
+							<li><a href="#">가슴재수술</a></li>
+							<li><a href="#">가슴필러제거</a></li>
+							<li></li>
+						</ul>
+					</li>
+					<li class="fl">코/재수술
+						<ul>
+							<li><a href="#">코성형수술</a></li>
+							<li><a href="#">메부리코</a></li>
+							<li><a href="#">휜코</a></li>
+							<li><a href="#">화살코</a></li>
+							<li><a href="#">들창코</a></li>
+							<li><a href="#">코끝성형</a></li>
+							<li><a href="#">콧볼축소</a></li>
+							<li><a href="#">코재수술</a></li>
+						</ul>
+					</li>
+					<li class="fl">눈/재수술
+						<ul>
+							<li><a href="#">쌍커플수술</a></li>
+							<li><a href="#">눈매교정</a></li>
+							<li><a href="#">앞트임</a></li>
+							<li><a href="#">뒤트임</a></li>
+							<li><a href="#">눈재수술</a></li>
+							<li></li>
+							<li></li>
+						</ul>
+					</li>
+					<li class="fl">레이저클리닉
+						<ul class="tit_sub cf">
+							<li><a href="#">리프테라</a></li>
+							<li><a href="#">써마지</a></li>
+							<li><a href="#">프락셀</a></li>
+							<li><a href="#">미라드라인</a></li>
+							<li></li>
+							<li></li>
+							<li></li>
+						</ul>
+					</li>
+					<li class="fl">메디컬스킨케어
+						<ul>
+							<li><a href="#">흉터/튼살</a></li>
+							<li><a href="#">문신제거</a></li>
+							<li><a href="#">다한증</a></li>
+							<li><a href="#">여드름/모공</a></li>
+							<li><a href="#">미백관리</a></li>
+							<li><a href="#">물광피부</a></li>
+							<li></li>
+ 						</ul>
+					</li>
+					<li class="fl">커뮤니티
+						<ul>
+							<li><a href="#">감사합니다. 고객님</a></li>
+							<li><a href="#">스타와 함께</a></li>
+							<li><a href="#">리얼스토리</a></li>
+							<li><a href="#">전후사진</a></li>
+							<li><a href="#">알쏭달쏭 성형상식</a></li>
+							<li><a href="#">채용/모집</a></li>
+							<li><a href="#">공지사항</a></li>
+							<li><a href="#">이달의 포커스</a></li>
+							<li></li>
+						</ul>
+					</li>
+					<li class="fl">상담센터
+						<ul>
+							<li><a href="#">온라인상담</a></li>
+							<li><a href="#">네이버톡톡</a></li>
+							<li><a href="#">네이버예약</a></li>
+							<li><a href="#">수술후 상담</a></li>
+							<li></li>
+							<li></li>
+							<li></li>
+						</ul>
+					</li>
+				</ul>
+			</div>  <!-- // .foot_sitemap -->
+		</div>  <!-- // #footer -->
+	</div>   <!-- // #wrap -->
+</body>
+</html>

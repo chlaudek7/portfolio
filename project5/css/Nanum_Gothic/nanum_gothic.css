@@ -1,0 +1,13 @@
+@font-face{
+	font-family:ng; src:url(NanumGothic-Regular.ttf); 
+	font-weight:600;
+}
+@font-face{
+	font-family:ng; src:url(NanumGothic-Bold.ttf); 
+	font-weight:700;
+}
+@font-face{
+	font-family:ng; src:url(NanumGothic-ExtraBold.ttf); 
+	font-weight:800;
+}
+.ng{font-family:ng;}

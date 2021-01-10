@@ -1,0 +1,607 @@
+﻿<!DOCTYPE HTML>
+<html lang="ko-KR">
+<head>
+	<meta charset="UTF-8">
+	<title>허쉬 성형외과</title>
+	<link rel="stylesheet" href="css/style2.css" />
+	<script src="js/jquery-1.7.1.min.js"></script>
+	<script src="http://www.hschool.co.kr/js/prefixfree.min.js"></script>	
+	<script src="js/jquery-ui.min.js"></script><!-- 팝업 드래그 -->	
+	<script src="js/drag_pop.js"></script><!-- 팝업 드래그 --> 
+	<script src="js/script.js"></script>
+</head>
+<body>
+	<div id="page_up_btn">
+		<a href="#top"><img src="images/top.jpg" alt="upbtn" /></a>
+	</div>
+	 <div id="pop" class="draggable showBalloon" title="드래그로 이동해 주세요">
+		<img src="images/adpop.png" width="450" height="379" alt="popup event" />
+		<img class="popcl" src="images/close.jpg" alt="팝업창닫기" />
+		<p class="popcl2">
+			<input type="checkbox" id="popclose" value="pop close"/>
+			<label for="popclose">오늘 하루 보지 않기</label >
+		</p>
+	</div>	
+	<div id="open">
+		<ul class="pop">
+			<li class="pop_drop">
+				<img src="images/popup02.jpg" width="1336" height="253" alt="open"/>
+				
+			</li>
+			
+			<li class="pop_menu"> <img src="images/pop_open.png" width="272" height="39" alt="open"/></li>
+		</ul>
+	</div>
+	
+	<div id="wrap" class="cf">
+	
+		<div id="line"></div>
+		
+		<div id="top_layout" class="cf">
+			<div id="top" class="cf">
+				<a href="index.html"><div id="logo"></div></a>
+				<div id="top_header" class="cf">
+					<h1>여자의 마음을 아는, 허쉬성형외과의원</h1>
+				
+					<form action="#" method="get" id="search">
+						<input class="guideText" type="text" value="검색" size="30"/>
+						<input class="search_img" type="image" src="images/bt_search.jpg" alt="search image"  />
+					</form>
+					<ul id="gnb">
+						<li><a href="#"><img src="images/qna.jpg" alt="채팅하기" onmouseover="this.src='images/qna_on.jpg'" onmouseout="this.src='images/qna.jpg'"/></a></li>
+						<li><a href="#"><img src="images/login.jpg" alt="로그인" onmouseover="this.src='images/login_on.jpg'" onmouseout="this.src='images/login.jpg'"/></a></li>
+						<li><a href="#"><img src="images/map.jpg" alt="오시는길" onmouseover="this.src='images/map_on.jpg'" onmouseout="this.src='images/map.jpg'"/></a></li>
+						<li><a href="#"><img src="images/ch.jpg" alt="중국어" /></a></li>
+						<li><a href="#"><img src="images/ru.jpg" alt="러시아어" /></a></li>
+						<li><a href="#"><img src="images/en.jpg" alt="영어" /></a></li>
+					</ul>
+				</div>
+				<div id="top_menu" class="cf">
+					<ul id="top_nav" class="cf">
+						<li class="nav_tit cf"><a href="../sub01/sub1.html">허쉬소개</a>
+							<div class="drop cf">
+								<p><span class="text1 cf">허쉬소개</span><span class="text2">여자의마을을아는 허쉬성형외과</span><img src="images/gnb01bg.jpg" width="209" height="413" alt="허쉬소개" /></p>
+								<ul class="tit_sub cf">
+									<li><a href="../sub01/sub1.html"><img src="images/list_icon.png" width="2" height="4" alt="list_icon"/>허쉬,선택의 이유</a></li>
+									<li><a href="../sub01/sub1.html"><img src="images/list_icon.png" width="2" height="4" alt="list_icon"/>26년 무사고</a></li>
+									<li><a href="../sub01/sub1.html"><img src="images/list_icon.png" width="2" height="4" alt="list_icon"/>수술후 관리</a></li>
+									<li><a href="../sub01/sub1.html"><img src="images/list_icon.png" width="2" height="4" alt="list_icon"/>의료진 소개</a></li>
+									<li><a href="../sub01/sub1.html"><img src="images/list_icon.png" width="2" height="4" alt="list_icon"/>연혁 소개</a></li>
+									<li><a href="../sub01/sub1.html"><img src="images/list_icon.png" width="2" height="4" alt="list_icon"/>학술 및 대외활동</a></li>
+									<li><a href="../sub01/sub1.html"><img src="images/list_icon.png" width="2" height="4" alt="list_icon"/>NEWS에 비친 허쉬</a></li>
+									<li><a href="../sub01/sub1.html"><img src="images/list_icon.png" width="2" height="4" alt="list_icon"/>TV에 비친 허쉬</a></li>
+									<li><a href="../sub01/sub1.html"><img src="images/list_icon.png" width="2" height="4" alt="list_icon"/>진료시간 및 병원안내</a></li>
+									<li><a href="../sub12/sub12.html"><img src="images/list_icon.png" width="2" height="4" alt="list_icon"/>찾아오시는 길</a></li>							
+								</ul>
+							</div>
+						</li>
+						<li class="nav_tit cf"><a href="../sub02/sub2.html">안티에이징</a>
+							<div class="drop cf">
+								<p><span class="text1">안티에이징</span><span class="text2">비밀스럽게 예뻐지자</span><img src="images/gnb02bg.jpg" height="331" alt="안티에이징" /></p>
+								<ul class="tit_sub cf">
+									<li><a href="../sub02/sub2.html"><img src="images/list_icon.png" width="2" height="4" alt="list_icon"/>허쉬 리프팅</a></li>
+									<li><a href="../sub02/sub2.html"><img src="images/list_icon.png" width="2" height="4" alt="list_icon"/>레이저리프팅</a></li>
+									<li><a href="../sub02/sub2.html"><img src="images/list_icon.png" width="2" height="4" alt="list_icon"/>눈밑지방재배치</a></li>
+									<li><a href="../sub02/sub2.html"><img src="images/list_icon.png" width="2" height="4" alt="list_icon"/>눈썹거상술</a></li>
+									<li><a href="../sub02/sub2.html"><img src="images/list_icon.png" width="2" height="4" alt="list_icon"/>상안검수술</a></li>
+									<li><a href="../sub02/sub2.html"><img src="images/list_icon.png" width="2" height="4" alt="list_icon"/>하안검수술</a></li>
+									<li><a href="../sub02/sub2.html"><img src="images/list_icon.png" width="2" height="4" alt="list_icon"/>눈밑애교살</a></li>
+									<li><a href="../sub02/sub2.html"><img src="images/list_icon.png" width="2" height="4" alt="list_icon"/>부위별 주름개선</a></li>
+								</ul>
+							</div>	
+						</li>
+						<li class="nav_tit cf"><a href="../sub03/sub3.html">흉터/재생</a>
+							<div class="drop cf">
+								<p><span class="text1">흉터/재생</span><span class="text2">자연스럽고 감쪽같은 피부</span><img src="images/gnb03bg.jpg" height="290" alt="흉터/재생" /></p>
+								<ul class="tit_sub cf">
+									<li><a href="../sub03/sub3.html"><img src="images/list_icon.png" width="2" height="4" alt="list_icon"/>흉터</a></li>
+									<li><a href="../sub03/sub3.html"><img src="images/list_icon.png" width="2" height="4" alt="list_icon"/>튼살</a></li>
+									<li><a href="../sub03/sub3.html"><img src="images/list_icon.png" width="2" height="4" alt="list_icon"/>탈모</a></li>
+									<li><a href="../sub03/sub3.html"><img src="images/list_icon.png" width="2" height="4" alt="list_icon"/>문신제거</a></li>
+									<li><a href="../sub03/sub3.html"><img src="images/list_icon.png" width="2" height="4" alt="list_icon"/>이물질제거</a></li>
+									<li class="border_none"></li>
+									<li class="border_none"></li>
+								</ul>	
+							</div>
+						</li>
+						<li class="nav_tit cf"><a href="../sub04/sub4.html">얼굴살 윤곽</a>
+							<div class="drop cf">
+								<p><span class="text1">얼굴살 윤곽</span><span class="text2">연예인 부럽지 않은 S라인</span><img src="images/gnb04bg.jpg" height="331" alt="얼굴살 윤곽" /></p>
+								<ul class="tit_sub cf">
+									<li><a href="../sub04/sub4.html"><img src="images/list_icon.png" width="2" height="4" alt="list_icon"/>비너스V윤곽술</a></li>
+									<li><a href="../sub04/sub4.html"><img src="images/list_icon.png" width="2" height="4" alt="list_icon"/>비너스V리프팅</a></li>
+									<li><a href="../sub04/sub4.html"><img src="images/list_icon.png" width="2" height="4" alt="list_icon"/>이마지방이식</a></li>
+									<li><a href="../sub04/sub4.html"><img src="images/list_icon.png" width="2" height="4" alt="list_icon"/>볼지방이식</a></li>
+									<li><a href="../sub04/sub4.html"><img src="images/list_icon.png" width="2" height="4" alt="list_icon"/>무턱교정</a></li>
+									<li><a href="../sub04/sub4.html"><img src="images/list_icon.png" width="2" height="4" alt="list_icon"/>광대뼈축소</a></li>
+									<li><a href="../sub04/sub4.html"><img src="images/list_icon.png" width="2" height="4" alt="list_icon"/>사각턱수술</a></li>
+									<li><a href="../sub04/sub4.html"><img src="images/list_icon.png" width="2" height="4" alt="list_icon"/>사각턱보톡스</a></li>
+								</ul>
+							</div>	
+						</li>
+						<li class="nav_tit cf"><a href="../sub05/sub5.html">가슴/재수술</a>
+							<div class="drop cf">	
+								<p><span class="text1">가슴/재수술</span><span class="text2">자연스럽고 아름다운 볼륨감</span><img src="images/gnb05bg.jpg" height="331" alt="가슴/재수술" /></p>
+								<ul class="tit_sub cf">
+									<li><a href="../sub05/sub5.html"><img src="images/list_icon.png" width="2" height="4" alt="list_icon"/>모티바가슴성형</a></li>
+									<li><a href="../sub05/sub5.html"><img src="images/list_icon.png" width="2" height="4" alt="list_icon"/>물방울가슴성형</a></li>
+									<li><a href="../sub05/sub5.html"><img src="images/list_icon.png" width="2" height="4" alt="list_icon"/>코젤가슴성형</a></li>
+									<li><a href="../sub05/sub5.html"><img src="images/list_icon.png" width="2" height="4" alt="list_icon"/>지방이식가슴성형</a></li>
+									<li><a href="../sub05/sub5.html"><img src="images/list_icon.png" width="2" height="4" alt="list_icon"/>처진가슴교정</a></li>
+									<li><a href="../sub05/sub5.html"><img src="images/list_icon.png" width="2" height="4" alt="list_icon"/>유두교정</a></li>
+									<li><a href="../sub05/sub5.html"><img src="images/list_icon.png" width="2" height="4" alt="list_icon"/>가슴재수술</a></li>
+									<li><a href="../sub05/sub5.html"><img src="images/list_icon.png" width="2" height="4" alt="list_icon"/>가슴필러 제거</a></li>
+								</ul>
+							</div>	
+						</li>
+						<li class="nav_tit cf"><a href="../sub06/sub6.html">눈/재수술</a>
+							<div class="drop cf">
+								<p><span class="text1">눈/재수술</span><span class="text2">크고 또렷한 눈매의 완성</span><img src="images/gnb06bg.jpg" height="290" alt="눈/재수술" /></p>
+								<ul class="tit_sub cf">
+									<li><a href="../sub06/sub6.html"><img src="images/list_icon.png" width="2" height="4" alt="list_icon"/>쌍커풀수술</a></li>
+									<li><a href="../sub06/sub6.html"><img src="images/list_icon.png" width="2" height="4" alt="list_icon"/>눈매교정</a></li>
+									<li><a href="../sub06/sub6.html"><img src="images/list_icon.png" width="2" height="4" alt="list_icon"/>앞트임</a></li>
+									<li><a href="../sub06/sub6.html"><img src="images/list_icon.png" width="2" height="4" alt="list_icon"/>뒤트임</a></li>
+									<li><a href="../sub06/sub6.html"><img src="images/list_icon.png" width="2" height="4" alt="list_icon"/>눈 재수술</a></li>
+									<li class="border_none" ></li>
+									<li class="border_none" ></li>
+								</ul>
+							</div>	
+						</li>
+						<li class="nav_tit cf"><a href="../sub07/sub7.html">코/재수술</a>
+							<div class="drop cf">
+								<p><span class="text1">코/재수술</span><span class="text2">오똑하고 아름다운 곡선</span><img src="images/gnb07bg.jpg" height="331" alt="코/재수술" /></p>
+								<ul class="tit_sub cf">
+									<li><a href="../sub07/sub7.html"><img src="images/list_icon.png" width="2" height="4" alt="list_icon"/>코성형수술</a></li>
+									<li><a href="../sub07/sub7.html"><img src="images/list_icon.png" width="2" height="4" alt="list_icon"/>매부리코</a></li>
+									<li><a href="../sub07/sub7.html"><img src="images/list_icon.png" width="2" height="4" alt="list_icon"/>휜코</a></li>
+									<li><a href="../sub07/sub7.html"><img src="images/list_icon.png" width="2" height="4" alt="list_icon"/>들창코</a></li>
+									<li><a href="../sub07/sub7.html"><img src="images/list_icon.png" width="2" height="4" alt="list_icon"/>화살코</a></li>
+									<li><a href="../sub07/sub7.html"><img src="images/list_icon.png" width="2" height="4" alt="list_icon"/>코끝성형</a></li>
+									<li><a href="../sub07/sub7.html"><img src="images/list_icon.png" width="2" height="4" alt="list_icon"/>콧볼축소</a></li>
+									<li><a href="../sub07/sub7.html"><img src="images/list_icon.png" width="2" height="4" alt="list_icon"/>코 재수술</a></li>
+								</ul>
+							</div>	
+						</li>
+						<li class="nav_tit cf"><a href="../sub08/sub8.html">레이저클리닉</a>
+							<div class="drop cf">
+								<p><span class="text1">레이저클리닉</span><span class="text2">간편하고 빠르게 아름다워지기</span><img src="images/gnb08bg.jpg" height="290" alt="레이저클리닉" /></p>
+								<ul class="tit_sub cf">
+									<li><a href="../sub08/sub8.html"><img src="images/list_icon.png" width="2" height="4" alt="list_icon"/>리프테라</a></li>
+									<li><a href="../sub08/sub8.html"><img src="images/list_icon.png" width="2" height="4" alt="list_icon"/>써마지CPT</a></li>
+									<li><a href="../sub08/sub8.html"><img src="images/list_icon.png" width="2" height="4" alt="list_icon"/>프락셀</a></li>
+									<li><a href="../sub08/sub8.html"><img src="images/list_icon.png" width="2" height="4" alt="list_icon"/>IPL</a></li>
+									<li><a href="../sub08/sub8.html"><img src="images/list_icon.png" width="2" height="4" alt="list_icon"/>미라드라이</a></li>
+									<li class="border_none"></li>
+									<li class="border_none"></li>
+								</ul>
+							</div>	
+						</li>
+						<li class="nav_tit cf"><a href="../sub09/sub9.html">메디컬스킨케어</a>
+							<div id="left1" class="drop cf">
+								<p><span class="text1">메디컬스킨케어</span><span class="text2">피부트러블 허쉬가 해결합니다</span><img src="images/gnb09bg.jpg" height="290" alt="메디컬스킨케어" /></p>
+								<ul class="tit_sub cf">
+									<li><a href="../sub09/sub9.html"><img src="images/list_icon.png" width="2" height="4" alt="list_icon"/>흉터/튼살</a></li>
+									<li><a href="../sub09/sub9.html"><img src="images/list_icon.png" width="2" height="4" alt="list_icon"/>문신제거</a></li>
+									<li><a href="../sub09/sub9.html"><img src="images/list_icon.png" width="2" height="4" alt="list_icon"/>다한증</a></li>
+									<li><a href="../sub09/sub9.html"><img src="images/list_icon.png" width="2" height="4" alt="list_icon"/>여드름/모공</a></li>
+									<li><a href="../sub09/sub9.html"><img src="images/list_icon.png" width="2" height="4" alt="list_icon"/>미백관리</a></li>
+									<li><a href="../sub09/sub9.html"><img src="images/list_icon.png" width="2" height="4" alt="list_icon"/>물광피부</a></li>
+									<li class="border_none"></li>
+								</ul>
+							</div>	
+						</li>
+						<li class="nav_tit cf"><a href="#">커뮤니티</a>
+							<div id="left2" class="drop cf">
+								<p><span class="text1">커뮤니티</span><span class="text2">허쉬성형외과의 이야기</span><img src="images/gnb10bg.jpg" height="413" alt="커뮤니티" /></p>
+								<ul class="tit_sub cf">
+									<li><a href="#"><img src="images/list_icon.png" width="2" height="4" alt="list_icon"/>감사합니다 고객님</a></li>
+									<li><a href="#"><img src="images/list_icon.png" width="2" height="4" alt="list_icon"/>스타와 함께</a></li>		
+									<li><a href="#"><img src="images/list_icon.png" width="2" height="4" alt="list_icon"/>리얼스토리</a></li>
+									<li><a href="#"><img src="images/list_icon.png" width="2" height="4" alt="list_icon"/>리얼후기</a></li>
+									<li><a href="#"><img src="images/list_icon.png" width="2" height="4" alt="list_icon"/>전후사진</a></li>
+									<li><a href="#"><img src="images/list_icon.png" width="2" height="4" alt="list_icon"/>알쏭달쏭 성형상식</a></li>
+									<li><a href="#"><img src="images/list_icon.png" width="2" height="4" alt="list_icon"/>여자마음 리포트</a></li>
+									<li><a href="#"><img src="images/list_icon.png" width="2" height="4" alt="list_icon"/>채용/모집</a></li>
+									<li><a href="#"><img src="images/list_icon.png" width="2" height="4" alt="list_icon"/>공지사항</a></li>
+									<li><a href="#"><img src="images/list_icon.png" width="2" height="4" alt="list_icon"/>이달의 포커스</a></li>
+								</ul>
+							</div>	
+						</li>
+						<li class="nav_tit cf"><a href="../sub11/sub11.html">상담센터</a>
+							<div id="left3" class="drop cf">
+								<p><span class="text1">상담센터</span><span class="text2">궁금한 점을 쉽게 설명해드립니다</span><img src="images/gnb11bg.jpg" height="290" alt="상담센터" /></p>
+								<ul class="tit_sub cf">
+									<li><a href="../sub11/sub11.html"><img src="images/list_icon.png" width="2" height="4" alt="list_icon"/>온라인상담</a></li>
+									<li><a href="../sub11/sub11.html"><img src="images/list_icon.png" width="2" height="4" alt="list_icon"/>네이버톡톡</a></li>
+									<li><a href="../sub11/sub11.html"><img src="images/list_icon.png" width="2" height="4" alt="list_icon"/>네이버예약</a></li>
+									<li><a href="../sub11/sub11.html"><img src="images/list_icon.png" width="2" height="4" alt="list_icon"/>수술후상담</a></li>
+									<li class="border_none"></li>
+									<li class="border_none"></li>
+									<li class="border_none"></li>
+								</ul>
+							</div>	
+						</li>
+					</ul>
+				</div><!-- top_menu -->
+			</div>
+		</div><!-- id="top_layout" class="cf" -->
+		<div id="main_image" class="bd_none showBalloon" title="개원이래 단 한차례의 의료사고도 발생하지 않을 만큼 안전한 성형을 지향합니다.">
+			<ul>
+				<li class="image1" style="left:0;"><img src="images/main1.jpg" height="554" alt="main image 1" /></li>
+				<li class="image2"><img src="images/main2.jpg" height="554" alt="main image 2" /></li>
+				<li class="image3"><img src="images/main3.jpg" height="554" alt="main image 3" /></li>
+				<li class="image4"><img src="images/main4.jpg" height="554" alt="main image 4" /></li>
+				<li class="image5"><img src="images/main5.jpg" height="554" alt="main image 5" /></li>
+				<li class="image6"><img src="images/main6.jpg" height="554" alt="main image 6" /></li>
+			</ul>
+		</div>		
+		<div id="middle_layout" class="cf">
+			<div id="top_sub_menu" class="cf">
+				<div class="left"><a href="#"><img src="images/bt_left.jpg" width="57" height="68" alt="이전이미지" /></a></div>
+				<div class="right"><a href="#"><img src="images/bt_right.jpg" width="57" height="68" alt="다음이미지" /></a></div>
+				<ul>
+					<li class="middle"><a href="#" class="bd_none">26년 무사고</a></li>
+					<li class="middle"><a href="#">보건복지부 장관상</a></li>
+					<li class="middle"><a href="#">보건산업대상</a></li>
+					<li class="middle"><a href="#">안전한 병원</a></li>
+					<li class="middle"><a href="#">미국 성형외과학회</a></li>
+					<li class="middle"><a href="#">글로벌 허쉬</a></li>
+				</ul>
+			</div>
+			<div id="main1" class="cf">
+				<div id="main1_title"><img src="images/realstory_tit.jpg" alt="realstory" width="1335" height="120" /></div>
+				<div id="main1_banner">
+					<ul>
+						<li><img src="images/pic_01.jpg" width="167" height="171" alt="배너1" />
+						<div class="color"><a href="#">여고생 현이의 상큼발란 후기!! <br />+<br />[쌍꺼플+앞트임+눈매교정]</a></div>
+						</li>
+						<li><img src="images/pic_02.jpg" width="167" height="171" alt="배너1" />
+						<div class="color"><a href="#">여고생 현이의 상큼발란 후기!! <br />+<br />[쌍꺼플+앞트임+눈매교정]</a></div>
+						</li>
+						<li><img src="images/pic_03.jpg" width="167" height="171" alt="배너1" />
+						<div class="color"><a href="#">여고생 현이의 상큼발란 후기!! <br />+<br />[쌍꺼플+앞트임+눈매교정]</a></div>
+						</li>
+						<li><img src="images/pic_04.jpg" width="167" height="171" alt="배너1" />
+						<div class="color"><a href="#">여고생 현이의 상큼발란 후기!! <br />+<br />[쌍꺼플+앞트임+눈매교정]</a></div>
+						</li>
+						<li><img src="images/pic_05.jpg" width="167" height="171" alt="배너1" />
+						<div class="color"><a href="#">여고생 현이의 상큼발란 후기!! <br />+<br />[쌍꺼플+앞트임+눈매교정]</a></div>
+						</li>
+						<li><img src="images/pic_06.jpg" width="167" height="171" alt="배너1" />
+						<div class="color"><a href="#">여고생 현이의 상큼발란 후기!! <br />+<br />[쌍꺼플+앞트임+눈매교정]</a></div>
+						</li>
+						<li><img src="images/pic_07.jpg" width="167" height="171" alt="배너1" />
+						<div class="color"><a href="#">여고생 현이의 상큼발란 후기!! <br />+<br />[쌍꺼플+앞트임+눈매교정]</a></div>
+						</li>
+						<li><img src="images/pic_08.jpg" width="167" height="171" alt="배너1" />
+						<div class="color"><a href="#">여고생 현이의 상큼발란 후기!! <br />+<br />[쌍꺼플+앞트임+눈매교정]</a></div>
+						</li>
+						<li><img src="images/pic_10.jpg" width="167" height="171" alt="배너1" />
+						<div class="color"><a href="#">여고생 현이의 상큼발란 후기!! <br />+<br />[쌍꺼플+앞트임+눈매교정]</a></div>
+						</li>
+						<li><img src="images/pic_11.jpg" width="167" height="171" alt="배너1" />
+						<div class="color"><a href="#">여고생 현이의 상큼발란 후기!! <br />+<br />[쌍꺼플+앞트임+눈매교정]</a></div>
+						</li>
+						<li><img src="images/pic_12.jpg" width="167" height="171" alt="배너1" />
+						<div class="color"><a href="#">여고생 현이의 상큼발란 후기!! <br />+<br />[쌍꺼플+앞트임+눈매교정]</a></div>
+						</li>
+						<li><img src="images/pic_13.jpg" width="167" height="171" alt="배너1" />
+						<div class="color"><a href="#">여고생 현이의 상큼발란 후기!! <br />+<br />[쌍꺼플+앞트임+눈매교정]</a></div>
+						</li>
+						<li><img src="images/pic_14.jpg" width="167" height="171" alt="배너1" />
+						<div class="color"><a href="#">여고생 현이의 상큼발란 후기!! <br />+<br />[쌍꺼플+앞트임+눈매교정]</a></div>
+						</li>
+						<li><img src="images/pic_15.jpg" width="167" height="171" alt="배너1" />
+						<div class="color"><a href="#">여고생 현이의 상큼발란 후기!! <br />+<br />[쌍꺼플+앞트임+눈매교정]</a></div>
+						</li>
+						<li><img src="images/pic_16.jpg" width="167" height="171" alt="배너1" />
+						<div class="color"><a href="#">여고생 현이의 상큼발란 후기!! <br />+<br />[쌍꺼플+앞트임+눈매교정]</a></div>
+						</li>
+						<li><img src="images/pic_17.jpg" width="167" height="171" alt="배너1" />
+						<div class="color"><a href="#">여고생 현이의 상큼발란 후기!! <br />+<br />[쌍꺼플+앞트임+눈매교정]</a></div>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<div id="main2" class="cf">
+				<div id="box1" class="fl">
+				<div class="board1_tit">
+					<div class="img1"><img src="images/event_tit.jpg" alt="" /></div>
+				</div>
+				<a href="#"><div class="board1_img"><img src="images/box_1.jpg" alt="" /></div></a>
+				</div>
+				<script>
+				jQuery(document).ready(function(){
+					 $('.board1_img').hover(
+				function(){
+					$(this).find('img').css({'transform':'scale(1.1)','transition':'all 0.3s'})
+				},function(){
+					$(this).find('img').css('transform','scale(1)');
+				}
+			); 
+
+				});
+				</script>
+
+				<div id="main2Box">
+					<div class="all fl cf">
+						<div class="tabSet cf">
+							<ul class="tabs cf">
+								<li><a href="#panel1-1" class="on">공지사항</a></li>
+								<li><a href="#panel1-2">스타와함께</a></li>
+								<li><a href="#panel1-3">온라인상담</a></li>
+								<li><a href="#panel1-4">리얼후기</a></li>
+							</ul>
+							<div class="panels cf">
+								<div class="panel" id="panel1-1">
+									<div class="notice fl">
+										<p><a href="#">[허쉬성형외과] 5월 진료일 안내</a></p>
+										<p><a href="#">[허쉬성형외과] 5월 진료일 안내</a></p>
+										<p><a href="#">[허쉬성형외과] 5월 진료일 안내</a></p>
+										<p><a href="#">[허쉬성형외과] 5월 진료일 안내</a></p>
+										<p><a href="#">[허쉬성형외과] 5월 진료일 안내</a></p>
+										<p><a href="#">[허쉬성형외과] 5월 진료일 안내</a></p>
+										<p><a href="#">[허쉬성형외과] 5월 진료일 안내</a></p>
+										<p><a href="#">[허쉬성형외과] 5월 진료일 안내</a></p>
+										
+									</div>
+									<div class="notice_date fl">
+										<p>2017.04.27</p>
+										<p>2017.04.27</p>
+										<p>2017.04.27</p>
+										<p>2017.04.27</p>
+										<p>2017.04.27</p>
+										<p>2017.04.27</p>
+										<p>2017.04.27</p>
+										<p>2017.04.27</p>
+									</div>
+								</div>
+								<div class="panel" id="panel1-2">
+										<div class="notice fl">
+										<p><a href="#">모델 Alexa O'brien</a></p>
+										<p><a href="#">배우 김병옥</a></p>
+										<p><a href="#">배우 홍아름</a></p>
+										<p><a href="#">그룹 하이포</a></p>
+										<p><a href="#">걸그룹 씨리얼</a></p>
+										<p><a href="#">배우 정자영</a></p>
+										<p><a href="#">걸그룹 디홀릭</a></p>
+										<p><a href="#">영화배우 박재훈</a></p>
+									</div>
+									<div class="notice_date fl">
+										<p>2017.04.27</p>
+										<p>2017.04.27</p>
+										<p>2017.04.27</p>
+										<p>2017.04.27</p>
+										<p>2017.04.27</p>
+										<p>2017.04.27</p>
+										<p>2017.04.27</p>
+										<p>2017.04.27</p>
+									</div>
+								
+								</div>
+								<div class="panel" id="panel1-3">
+									<div class="notice fl">
+										<p><a href="#">[허쉬성형외과] 5월 진료일 안내</a></p>
+										<p><a href="#">[허쉬성형외과] 5월 진료일 안내</a></p>
+										<p><a href="#">[허쉬성형외과] 5월 진료일 안내</a></p>
+										<p><a href="#">[허쉬성형외과] 5월 진료일 안내</a></p>
+										<p><a href="#">[허쉬성형외과] 5월 진료일 안내</a></p>
+										<p><a href="#">[허쉬성형외과] 5월 진료일 안내</a></p>
+										<p><a href="#">[허쉬성형외과] 5월 진료일 안내</a></p>
+										<p><a href="#">[허쉬성형외과] 5월 진료일 안내</a></p>
+										
+									</div>
+									<div class="notice_date fl">
+										<p>2017.04.27</p>
+										<p>2017.04.27</p>
+										<p>2017.04.27</p>
+										<p>2017.04.27</p>
+										<p>2017.04.27</p>
+										<p>2017.04.27</p>
+										<p>2017.04.27</p>
+										<p>2017.04.27</p>
+									</div>
+									
+								</div>
+								<div class="panel" id="panel1-4">
+									<div class="notice fl">
+										<p><a href="#">[허쉬성형외과] 5월 진료일 안내</a></p>
+										<p><a href="#">[허쉬성형외과] 5월 진료일 안내</a></p>
+										<p><a href="#">[허쉬성형외과] 5월 진료일 안내</a></p>
+										<p><a href="#">[허쉬성형외과] 5월 진료일 안내</a></p>
+										<p><a href="#">[허쉬성형외과] 5월 진료일 안내</a></p>
+										<p><a href="#">[허쉬성형외과] 5월 진료일 안내</a></p>
+										<p><a href="#">[허쉬성형외과] 5월 진료일 안내</a></p>
+										<p><a href="#">[허쉬성형외과] 5월 진료일 안내</a></p>
+										
+									</div>
+									<div class="notice_date fl">
+										<p>2017.04.27</p>
+										<p>2017.04.27</p>
+										<p>2017.04.27</p>
+										<p>2017.04.27</p>
+										<p>2017.04.27</p>
+										<p>2017.04.27</p>
+										<p>2017.04.27</p>
+										<p>2017.04.27</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div id="main3" class="cf">
+				<div id="main3_banner">
+					<ul id="banner1">
+						<li><a href="#"><img src="images/banner_01.jpg" alt="banner_01" /></a></li>
+						<li><a href="#"><img src="images/banner_02.jpg" alt="banner_02" /></a></li>
+						<li><a href="#"><img src="images/banner_03.jpg" alt="banner_03" /></a></li>
+						<li><a href="#"><img src="images/banner_04.jpg" alt="banner_04" /></a></li>
+						<li><a href="#"><img src="images/banner_05.jpg" alt="banner_05" /></a></li>
+					</ul>
+					<ul id="banner2">
+						<li><a href="#"><img src="images/banner_07.jpg" alt="banner_07" /></a></li>
+						<li><a href="#"><img src="images/banner_08.jpg" alt="banner_08" /></a></li>
+						<li><a href="#"><img src="images/banner_09.jpg" alt="banner_09" /></a></li>
+						<li><a href="#"><img src="images/banner_10.jpg" alt="banner_10" /></a></li>
+						<li><a href="#"><img src="images/banner_11.jpg" alt="banner_11" /></a></li>
+					</ul>
+					<ul id="banner3">
+						<li><a href="#"><img src="images/banner_13.jpg" alt="banner_13" /></a></li>
+						<li><a href="#"><img src="images/banner_14.jpg" alt="banner_14" /></a></li>
+						<li><a href="#"><img src="images/banner_15.jpg" alt="banner_15" /></a></li>
+						<li><a href="#"><img src="images/banner_16.jpg" alt="banner_16" /></a></li>
+						<li><a href="#"><img src="images/banner_17.jpg" alt="banner_17" /></a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div id="partner" class="container_1">
+			<span class="left"><a href="#" onclick="return false"><img src="images/partner_left.jpg" alt="left" /></a></span>
+			<div class="area">
+				<ul>
+					<li class="partner"><a href="#"><img src="images/partner.1.jpg" alt="partner1" /></a></li>
+					<li class="partner"><a href="#"><img src="images/partner.2.jpg" alt="partner2" /></a></li>
+					<li class="partner"><a href="#"><img src="images/partner.3.jpg" alt="partner3" /></a></li>
+					<li class="partner"><a href="#"><img src="images/partner.4.jpg" alt="partner4" /></a></li>
+					<li class="partner"><a href="#"><img src="images/partner.5.jpg" alt="partner5" /></a></li>
+					<li class="partner"><a href="#"><img src="images/partner.6.jpg" alt="partner6" /></a></li>
+					<li class="partner"><a href="#"><img src="images/partner.7.jpg" alt="partner7" /></a></li>
+					<li class="partner"><a href="#"><img src="images/partner.8.jpg" alt="partner8" /></a></li>
+				</ul>
+			</div>
+			<span class="right"><a href="#" onclick="return false"><img src="images/partner_right.jpg" alt="right" /></a></span>
+		</div>
+		<div id="foot" class="cf">
+			<div id="foot_information" class="cf">
+				<p class="text1">허쉬성형외과는 26년간의 풍부한 임상 경험과 노하우를 바탕으로 자연스러운 미를 추구하고 있으며 <br />미용성형을 중심으로 젊음을 유지하고 건강 및 활력을 증진시키는 종합적이고 체계적인 프로그램을 운영하고 있습니다.</p>
+				<ul class="foot_icon">
+					<li><a href="#"><img src="images/sns_01.jpg" alt="icon1" /></a></li>
+					<li><a href="#"><img src="images/sns_02.jpg" alt="icon2" /></a></li>
+					<li><a href="#"><img src="images/sns_03.jpg" alt="icon3" /></a></li>
+					<li><a href="#"><img src="images/sns_04.jpg" alt="icon4" /></a></li>
+					<li><a href="#"><img src="images/sns_05.jpg" alt="icon5" /></a></li>
+					<li><a href="#"><img src="images/sns_06.jpg" alt="icon6" /></a></li>
+				</ul>
+				<h2>상담문의 : 02.511.3911</h2>
+				<p class="text2">서울시 강남구 청담동 48번지 루비나빌딩 5,6층(도로명 주소: 서울특별시 강남구 도산대로 502 6,7층) | <a href="#">[개인정보취급방침]</a> <br />
+			사업자등록번호 : 211-09-46633 | TEL : 02.511.3911 / FAX : 02.511.9970 | 상호명 : 허쉬성형외과의원 | 대표자 : 정영춘 | 개인정보관리책임자 : 전정환 
+				</p>
+			</div>
+			<div id="foot_sitemap" class="cf">
+				<ul class="sitemap_list cf">
+					<li class="bordernone">허쉬소개
+						<ul class="cf">
+							<li><a href="#">허쉬,선택의 이유</a></li>
+							<li><a href="#">26년 무사고</a></li>
+							<li><a href="#">수술후 관리</a></li>
+							<li><a href="#">의료진 소개</a></li>
+							<li><a href="#">연혁소개</a></li>
+							<li><a href="#">학술 및 대외 활동</a></li>
+							<li><a href="#">NEWS에 비친 허쉬</a></li>
+							<li><a href="#">TV에 비친 허쉬</a></li>
+							<li><a href="#">진료시간 및 병원안내</a></li>
+							<li><a href="#">찾아오시는 길</a></li>
+						</ul>
+					</li>
+					<li>안티에이징
+						<ul class="cf">
+							<li><a href="#"> 허쉬 리프팅</a></li>
+							<li><a href="#"> 레이저리프팅</a></li>
+							<li><a href="#"> 눈밑지방재배치</a></li>
+							<li><a href="#"> 눈썹거상술</a></li>
+							<li><a href="#"> 상안검수술</a></li>
+							<li><a href="#"> 하안검수술</a></li>
+							<li><a href="#"> 눈밑애고살</a></li>
+							<li><a href="#"> 부위별 주름개선</a></li>
+						</ul>
+					</li>
+					<li>흉터/재생
+						<ul class="cf">
+							<li><a href="#">흉터</a></li>
+							<li><a href="#">튼살</a></li>
+							<li><a href="#">탈모</a></li>
+							<li><a href="#">문신제거</a></li>
+							<li><a href="#">이물질제거</a></li>
+						</ul>
+					</li>
+					<li>얼굴살 윤곽
+						<ul class="cf">
+							<li><a href="#">흉터</a></li>
+							<li><a href="#">튼살</a></li>
+							<li><a href="#">탈모</a></li>
+							<li><a href="#">문신제거</a></li>
+							<li><a href="#">이물질제거</a></li>
+						</ul>
+					</li>
+					<li>가슴/재수술
+						<ul class="cf">
+							<li><a href="#">흉터</a></li>
+							<li><a href="#">튼살</a></li>
+							<li><a href="#">탈모</a></li>
+							<li><a href="#">문신제거</a></li>
+							<li><a href="#">이물질제거</a></li>
+						</ul>
+					</li>
+					<li>눈/재수술
+						<ul class="cf">
+							<li><a href="#">흉터</a></li>
+							<li><a href="#">튼살</a></li>
+							<li><a href="#">탈모</a></li>
+							<li><a href="#">문신제거</a></li>
+							<li><a href="#">이물질제거</a></li>
+						</ul>
+					</li>
+					<li>코/재수술
+						<ul class="cf">
+							<li><a href="#">흉터</a></li>
+							<li><a href="#">튼살</a></li>
+							<li><a href="#">탈모</a></li>
+							<li><a href="#">문신제거</a></li>
+							<li><a href="#">이물질제거</a></li>
+						</ul>
+					</li>
+					<li>레이저클리닉
+						<ul class="cf">
+							<li><a href="#">흉터</a></li>
+							<li><a href="#">튼살</a></li>
+							<li><a href="#">탈모</a></li>
+							<li><a href="#">문신제거</a></li>
+							<li><a href="#">이물질제거</a></li>
+						</ul>
+					</li>
+					<li>메디컬스킨케어
+						<ul class="cf">
+							<li><a href="#">흉터</a></li>
+							<li><a href="#">튼살</a></li>
+							<li><a href="#">탈모</a></li>
+							<li><a href="#">문신제거</a></li>
+							<li><a href="#">이물질제거</a></li>
+						</ul>
+					</li>
+					<li>커뮤니티
+						<ul class="cf">
+							<li><a href="#">흉터</a></li>
+							<li><a href="#">튼살</a></li>
+							<li><a href="#">탈모</a></li>
+							<li><a href="#">문신제거</a></li>
+							<li><a href="#">이물질제거</a></li>
+						</ul>
+					</li>
+					<li>상담센터
+						<ul class="cf">
+							<li><a href="#">흉터</a></li>
+							<li><a href="#">튼살</a></li>
+							<li><a href="#">탈모</a></li>
+							<li><a href="#">문신제거</a></li>
+							<li><a href="#">이물질제거</a></li>
+						</ul>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
